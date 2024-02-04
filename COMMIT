@@ -30,5 +30,13 @@ he will receive negative points of damage.
 When the player is injured by the spikes on the ceiling, he will be forced to leave the platform and jump down. 
 The game ends when the health point reaches zero or when the player falls to the bottom.
 
+  Twist:
+  Items appear randomly to allow the player to restore health points or change the platform on the field.
+
+  Challenges: 
+  1. Implementing dynamic behaviors for various platforms (ordinary, fake, spring, crawler, spiked) and ensuring precise collision detection.
+  2. Managing the health system and accurately calculating damage from spiked platforms.
+  3. Balancing difficulty across platform types, adjusting spiked platform frequency, and the speed of the rising platform.
+
 
 Group Photo
