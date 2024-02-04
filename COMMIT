@@ -3,6 +3,7 @@ Game ideas
   - Flappy Bird
   - Dodge the balls
   - BrickBreaker
+  - NS-Shaft
 
 
 Game Idea 1: Flappy Bird Name: Chameleon Chase 
@@ -19,5 +20,15 @@ The twist comes with the introduction of various power-ups, challenging obstacle
 The speed and direction of the balls can be adjusted by the area of the paddle stricken with. Hitting  CERTAIN moving animal ends the game. 
 There are multiple mitating levels of increasing difficulty and hitting a certain ball can reverse direction, change ball size, and reverse
 gravity. 
+
+Game Idea 3: NS-Shaft
+
+In the game, a player can control the left and right direction keys to move to the left or right. 
+As the platform continues to rise, the goal is to allow the player to go down the maximum number of floors.
+The player has a total of 12 points of health. If contacting the spikes on the ceiling or the spike platform, 
+he will receive negative points of damage. 
+When the player is injured by the spikes on the ceiling, he will be forced to leave the platform and jump down. 
+The game ends when the health point reaches zero or when the player falls to the bottom.
+
 
 Group Photo
