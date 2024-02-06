@@ -21,7 +21,7 @@ class Button{
     fill(colour);
     rect(x - w/2, y - h/2, w, h);//Draw a rectangle centered on x and y
     textSize(40);
-    fill(255);
+    fill(0);
     textAlign(CENTER, CENTER);
     text(text, x, y);
     

@@ -15,9 +15,9 @@ void setup(){
   bird1 = new Bird();
   
   //Create instances of the Button class.
-  startButton = new Button(width/2, height/2, 150, 80, 150, "START");
-  playAgainButton = new Button(width/2, height/2+140, 350, 50, 100, "Play Again");
-  backToMainMenuButton = new Button(width/2, height/2 + 200, 350, 50, 100, "Back To Main Menu");
+  startButton = new Button(width/2, height/2, 200, 50, 150, "START");
+  playAgainButton = new Button(width/2, height/2 + 130, 350, 50, 150, "Play Again");
+  backToMainMenuButton = new Button(width/2, height/2 + 200, 350, 50, 150, "Back To Main Menu");
 }
 
 void draw(){
@@ -57,11 +57,11 @@ void drawEnd(){
   text("GAME OVER", width/2, 100);
   fill(0);
   textSize(20);
-  text("Your Score: " + score, width/2, 180);
+  text("Your Score: " + score, width/2, 150);
   if(score > bestScore){
     bestScore = score;
   }
-  text("Best Score: " + bestScore, width/2, 200);  
+  text("Best Score: " + bestScore, width/2, 180);  
   playAgainButton.display();
   backToMainMenuButton.display();
 }
@@ -102,31 +102,28 @@ void drawLevel(){
     coin.update();
     coin.display();
     if(coin.hits(bird1)){
-      //Get 5 point for each coin
       score += 5;
       coins.remove(coin);
     }
-    //Remove coin when it leaves the screen
+    //Remove pipe when it leaves the screen
     if(coin.offscreen()){
       coins.remove(coin);
     }
   }
   
-  //add new coins randomly(50% probability of appearance between every two pipes)
-  if (((frameCount-40) % 80 == 0) && (floor(random(0, 100)) <= 50)) {
-    coins.add(new Coin());
+  //add new coins randomly
+  if ((frameCount-40) % 80 == 0) {
+      if(floor(random(0, 100)) <= 50){
+        coins.add(new Coin());
+      }
   }
   
-  //Current score shows on the top-left corner of screen
    textSize(40);
    fill(0);
    text("Score: " + score, 80, 30); 
 }
 
 void reset (){
-  //Reset score
-  score = 0;
-  
   //Reset bird
   bird1 = new Bird();
   
@@ -144,6 +141,7 @@ void reset (){
 //Respond when the mouse is pressed
 void mousePressed(){
   if(startButton.isMouseOver() && currentState == STATE_MAIN_MENU){
+    reset();
     currentState = STATE_LEVEL;
   }
   if(playAgainButton.isMouseOver() && currentState == STATE_END){
