@@ -3,6 +3,31 @@ Stakeholders
 1. Game Developers and Designers
 2. Game Publishers
 
+Game Developers User Story
+- I want a robust game engine that supports both 2D and 3D graphics, allowing for flexible and visually stunnning gameplay
+- I want an efficient debugging tool that provides real-time insights into the game's performance, helping me identify and fix issues quickly
+- I want an easy-to-use scripting language that allows rapid prototyping and iteration of game mechanics, enhancing the development workflow
+- I want a comprehensive multilayer framework that supports various modes (co-op, competitive) and provides tools for seamless online intergration
+- I want docimentation that is clear, concise, and regularly updated, enabling me to understand and implement new features without unnecessary delays
+
+Game Designers User Story
+- I want an intuitative level editor that allows me to create diverse and engaging game environments with ease, allowing me to relaise my creative visions
+- I want access to a vast libray of assets - incl. characters, objects and environments, to enhance the visual appeal of the game without compromising the
+performance
+- I want a flexible AI system that allows me to create challenging and dynamic enemy behaviours, contributing to an immersive and enjoyable player experience
+- I want analytics tools that provide valuable player data, allowing me to make informed decisions about game balance, difficulty and feature improvement
+- I want collaboration features that enable seamless communication with the development team, ensuring a smooth integration of design elements into the final
+project
+
+Game Publisher User Story
+- I want a detailed, customizable analytics dashboard that provides info on player engagement, retention, and monetization, supporting data-driven decision
+making
+- I want a reliable and secure solution to protect IP while minimizing impact on player experience
+- I want marketing tools integrated into the game platform, allowing for targeted promotions, advertisments, and community engagement to boost game visibility
+and sales
+- I want seamless integration with popular gaming platforms and storefronts, simplifying the distibution process and maximising game's reach
+- I want a transparent and collaborative relationship with the development team, including regular progress updates and open communication channels 
+
 3. Players (End Users)
 4. Investors and Financiers
 
