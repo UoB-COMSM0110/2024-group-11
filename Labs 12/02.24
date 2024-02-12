@@ -1,0 +1,51 @@
+Running to Work App
+
+
+Stakeholders
+- Employees - the users
+- Employers - the owners
+- Internal: Developers, software company, designers, project manager - the builders
+
+User Stories 
+- I'm Mike, 58M, haven't been excersing for years as I just drive everywhere - the new app has been a gamechanger for me - now I excercise 3x a week and my Blood pressure and heart rate has decreased
+- I'm Emily, 35F, I used to go to the gym in my home-town every day after work, but the commute here takes too long and I don't have time when I get home as it's dark - running to work in the morning
+has been great as I now have an opportunity to exercise. It's great to feel like I;ve done something before work
+- I'm James, 20M, I am interning at this company, and I love the work culture - everyone is very fit and active and it has motivated me to balance excercise alongside my studies. In the office everyone
+has started a competition to see who can cover the most distance each week, and the winner gets a prize at the end of the year. I'm gonna try work my way up this leaderboard!
+
+Use Case Specification
+
+- Employee using the app to monitor and track their running progress - and get bonus points
+
+Preconditions:
+- they must have an account on the app
+- they must be logged in to the app
+
+
+User story
+ - login to the app
+ - options to view score, view map/route, or start jogging
+ - select plan jog or start jog 
+ - start jogging - asks you to select GPS monitoring or manual tracking
+ GPS monitoring
+ - automatically record distance, speed, time, calories burned (Estimated)
+ Manual tracking
+ - you input the information at the end of the run
+
+ - Set destination (work/home/other)
+ - start running 
+
+ - If you lose connection, it warns the user
+ 2 options
+ - stop run
+ - pause run till data back
+ - manual tracking
+
+
+Postconditions
+ - their time, distance, calories burned and duration is recorded
+ - thier bonus points are added
+ - the data is sent to the company 
+
+
+ 
