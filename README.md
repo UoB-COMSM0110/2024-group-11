@@ -53,9 +53,9 @@ The game ends when the health point reaches zero or when the player falls to the
 
 # Paper Protopyes
 ## 1.NS-Shaft
-*TODO*
+[![](./Images/Prototype1.png)](https://drive.google.com/file/d/1rs3dhTJLfhT_UdmvRboXBJdfwgNGlJ5o/view?usp=sharing)
 ## 2.flappy bird
-*TODO*
+[![](./Images/Prototype2.png)](https://drive.google.com/file/d/1P0VZh37yRYIMSRiT_hydD6VuRLFyvlS6/view?usp=sharing)
 
 
 # Requirements
