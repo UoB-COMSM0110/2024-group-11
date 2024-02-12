@@ -114,7 +114,7 @@ of marketing campaigns, optimize future marketing strategies, and better communi
 - I want to maintain close communication with the game development team, resolve disputes and disputes involving legal issues in a timely manner and ensure the legality and stability of the game.
 
 10. Educational Institutions 
-— I want the game development team to provide an educational version or educational mode to support teaching and learning activities.
+- I want the game development team to provide an educational version or educational mode to support teaching and learning activities.
 
 ## Worked Through Use Case Specification
 Player/Gamer
