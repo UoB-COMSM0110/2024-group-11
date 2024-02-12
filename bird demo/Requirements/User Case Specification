@@ -1,0 +1,28 @@
+Player/Gamer
+
+User Story: I want to customize my bird's appearance in chameleon chase
+
+Customizing the Bird's Appearance
+
+Actor: Player
+
+Precondition: Player launched Chameleon Chase
+
+Main Flow:
+
+  1. Player selects customization menu
+  2. Accesses Bird Appearance Options
+  3. Chooses Colour Scheme
+  4. Applys Patterns and Accessories
+  5. Previews Customized Bird
+  6. Saves the Customization
+
+Postcondition: Player's bird is updated according to their customization
+
+Alternative: If customized version not saved, default is selected
+
+Exceptions: Technical issues/limitations stop customization from being saved
+
+Success Scenario: Personalised gameplay with customized bird
+
+Future: Customization options expand with new updates, achievements (Such as bronze, silver, gold for high scores) can be attached to user's bird 
