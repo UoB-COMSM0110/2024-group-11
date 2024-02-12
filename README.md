@@ -101,12 +101,20 @@ provide users with more ways to learn about the game. Additionally, if users pro
 of marketing campaigns, optimize future marketing strategies, and better communicate with the media and players.
 
 7. Quality Assurance Testers
+- I want the game development team to provide comprehensive test plans and test cases to ensure the stability, performance and user experience of the game.
+- I want to be able to use professional testing tools and automated test scripts to efficiently perform testing tasks and discover and report problems in a timely manner.
+- I want that the development team can actively respond to test feedback, fix discovered defects in a timely manner and provide detailed test reports and records to track and verify problem resolution.
 
 8. Community Managers
+- I want to build and maintain an active game community and promote communication, interaction and cooperation among players.
+- I want to work closely with the development team to understand player needs and feedback, and adjust game content and features in a timely manner to maintain community activity and user satisfaction.
 
 9. Legal Advisors
+- I want that the game development team will comply with relevant laws and regulations, including laws and regulations on intellectual property, user privacy, consumer rights, etc.
+- I want to maintain close communication with the game development team, resolve disputes and disputes involving legal issues in a timely manner and ensure the legality and stability of the game.
 
 10. Educational Institutions 
+— I want the game development team to provide an educational version or educational mode to support teaching and learning activities.
 
 ## Worked Through Use Case Specification
 Player/Gamer
