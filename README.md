@@ -5,17 +5,17 @@ Ahmed El Ashry, pu20789@bristol.ac.uk, ahmedcoolestman
 Jialun He, cb23036@bristol.ac.uk, kkggbo
 Ching-Chun Juan, iq23062@bristol.ac.uk, alicejuancc
 
-#Group Photo
-![Team Photo]/Images/Team Photo.jpg
+# Group Photo
+![Team Photo](Images/Team Photo.jpg)
 
-#Game ideas:
-##Game Idea 1: Flappy Bird Name: Chameleon Chase 
+# Game ideas:
+## Game Idea 1: Flappy Bird Name: Chameleon Chase 
 In this version of Flappy Bird, the pipes and the bird are dynamically changing colors. 
 The twist is that the player must control the bird to match its color with the upcoming pipes to pass through them.
 The second twist is that the pipes move dynamically to trap the bird.
 The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys)
 
-##Game Idea 2: BrickBreaker
+## Game Idea 2: BrickBreaker
 
 In "Pixel Bouncer," the classic brick breaker game takes a twist with a pixelated, retro aesthetic. 
 Players control a bouncing pixel ball with the goal of breaking colorful pixel bricks in a dynamic and evolving environment. 
@@ -24,7 +24,7 @@ The speed and direction of the balls can be adjusted by the area of the paddle s
 There are multiple mitating levels of increasing difficulty and hitting a certain ball can reverse direction, change ball size, and reverse
 gravity. 
 
-##Game Idea 3: NS-Shaft
+## Game Idea 3: NS-Shaft
 
 In the game, a player can control the left and right direction keys to move to the left or right. 
 As the platform continues to rise, the goal is to allow the player to go down the maximum number of floors.
@@ -41,15 +41,15 @@ The game ends when the health point reaches zero or when the player falls to the
   2. Managing the health system and accurately calculating damage from spiked platforms.
   3. Balancing difficulty across platform types, adjusting spiked platform frequency, and the speed of the rising platform.
 
-#Paper Protopyes
-##1.NS-Shaft
-<video src="/Videos/Paper Protopye Idea 1.mp4" width="1080" height="720" controls></video>
+# Paper Protopyes
+## 1.NS-Shaft
+<video src="Videos/Paper Protopye Idea 1.mp4" width="1080" height="720" controls></video>
 
-##2.flappy bird
-<video src="/Videos/Paper Protopye Idea 2.mp4" width="1080" height="720" controls></video>
+## 2.flappy bird
+<video src="Videos/Paper Protopye Idea 2.mp4" width="1080" height="720" controls></video>
 
-#Requirements
-##Stakeholders and user stories
+# Requirements
+## Stakeholders and user stories
 1. Game Developers and Designers
 - I want a robust game engine that supports both 2D and 3D graphics, allowing for flexible and visually stunnning gameplay
 - I want an efficient debugging tool that provides real-time insights into the game's performance, helping me identify and fix issues quickly
