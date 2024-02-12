@@ -1,2 +1,0 @@
-v0.3（2.7）：
-	This update allows the movement speed of objects (pipes and coins) to increase as the game progresses, and pipes will move vertically.

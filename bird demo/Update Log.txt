@@ -1,0 +1,15 @@
+v0.2(2.6)：
+
+	This update introduces a score recording feature, and gold coins will randomly appear during the game for players to collect. The current score is displayed in real-time during gameplay (one point is added for avoiding a pipe, and five points are added for collecting a gold coin). The game over screen displays the score for the current session and the highest score (the highest score is not saved locally and will be reset to zero upon exiting the program).
+
+
+v0.3(2.7)：
+
+	This update allows the movement speed of objects (pipes and coins) to increase as the game progresses, and pipes will move vertically.
+
+
+v0.4 (2.12):
+	This update has added a settings interface, where players can choose the color of the bird (red, orange, yellow, green, blue, indigo, purple), and at the same time, the pipeline will also change to the corresponding color of the bird, which is the foundation of a two player game. The next update should allow two people to play.
+	
+
+
