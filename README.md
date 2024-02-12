@@ -1,12 +1,20 @@
 # 2024-group-11
 Overview of Software Engineering - University of Bristol MSc Group Project
+
 Qiyuan Chen, ty23828@bristol.ac.uk, ty23828
+
 Ahmed El Ashry, pu20789@bristol.ac.uk, ahmedcoolestman
+
 Jialun He, cb23036@bristol.ac.uk, kkggbo
+
 Ching-Chun Juan, iq23062@bristol.ac.uk, alicejuancc
 
+
+
 # Group Photo
-![Team Photo](Images/Team Photo.jpg)
+![image](https://github.com/UoB-COMSM0110/2024-group-11/assets/69910719/2221f7df-e9b5-4e8e-b8aa-bd7b3e7a9eb7)
+
+
 
 # Game ideas:
 ## Game Idea 1: Flappy Bird Name: Chameleon Chase 
@@ -41,12 +49,14 @@ The game ends when the health point reaches zero or when the player falls to the
   2. Managing the health system and accurately calculating damage from spiked platforms.
   3. Balancing difficulty across platform types, adjusting spiked platform frequency, and the speed of the rising platform.
 
+
+
 # Paper Protopyes
 ## 1.NS-Shaft
-<video src="Videos/Paper Protopye Idea 1.mp4" width="1080" height="720" controls></video>
-
+*TODO*
 ## 2.flappy bird
-<video src="Videos/Paper Protopye Idea 2.mp4" width="1080" height="720" controls></video>
+*TODO*
+
 
 # Requirements
 ## Stakeholders and user stories
@@ -129,8 +139,9 @@ Success Scenario: Personalised gameplay with customized bird
 Future: Customization options expand with new updates, achievements (Such as bronze, silver, gold for high scores) can be attached to user's bird 
 
 ## Use Case Diagram
+*TODO*
 
 ## Reflection
-
+*TODO*
 
 
