@@ -12,4 +12,7 @@ v0.4 (2.12):
 	This update has added a settings interface, where players can choose the color of the bird (red, orange, yellow, green, blue, indigo, purple), and at the same time, the pipeline will also change to the corresponding color of the bird, which is the foundation of a two player game. The next update should allow two people to play.
 	
 
+v0.5(2.13)
+	The latest update allows players to select between single-player and multiplayer modes in the settings menu. Players can also choose their preferred color for their bird here. I deliberately designed it so that both players can choose the same color, which will double the number of pipes and make the game more challenging and interesting. In multiplayer mode, when a bird collides with a pipe of a different color, it will pass through instead of dying. The game will only enter the end screen when both birds of the two players have died.
 
+	As for the next steps for the game, I plan to adjust the gameplay. Personally, I feel that the difficulty of the game is somewhat high, and most of the time it's hard to score over 100 points, which is somewhat disappointing. So, I hope to make the game a bit simpler. To achieve this, I am planning to introduce a life point mechanism, so the game won't end after just one collision.
