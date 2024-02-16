@@ -16,3 +16,6 @@ v0.5(2.13)
 	The latest update allows players to select between single-player and multiplayer modes in the settings menu. Players can also choose their preferred color for their bird here. I deliberately designed it so that both players can choose the same color, which will double the number of pipes and make the game more challenging and interesting. In multiplayer mode, when a bird collides with a pipe of a different color, it will pass through instead of dying. The game will only enter the end screen when both birds of the two players have died.
 
 	As for the next steps for the game, I plan to adjust the gameplay. Personally, I feel that the difficulty of the game is somewhat high, and most of the time it's hard to score over 100 points, which is somewhat disappointing. So, I hope to make the game a bit simpler. To achieve this, I am planning to introduce a life point mechanism, so the game won't end after just one collision.
+
+v0.6(2.16)
+	Each player starts each game with 3 health points by default. Each collision with a pipe will consume one point and respawn, with 3 seconds of invincibility upon respawn. If the health points become zero, the bird will truly die.
