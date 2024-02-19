@@ -258,7 +258,7 @@ void drawLevel(){
       p1score += 5;
       coins.remove(coin);
     }
-    if(coin.hits(bird2) && !bird2.isDead){
+    if(coin.hits(bird2) && !bird2.isDead && isdouble){
       p2score += 5;
       coins.remove(coin);    
     }

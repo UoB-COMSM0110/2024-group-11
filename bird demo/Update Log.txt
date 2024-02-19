@@ -19,3 +19,6 @@ v0.5(2.13)
 
 v0.6(2.16)
 	Each player starts each game with 3 health points by default. Each collision with a pipe will consume one point and respawn, with 3 seconds of invincibility upon respawn. If the health points become zero, the bird will truly die.
+
+v0.6.1(2.19)
+	This update only slightly tidied up the code, there is no update on game content.
