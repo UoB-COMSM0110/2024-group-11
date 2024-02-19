@@ -152,8 +152,11 @@ Future: Customization options expand with new updates, achievements (Such as bro
 ## Reflection
 Through the use of user stories and use cases, our team learned the importance of understanding and addressing the specific needs of different stakeholders. We discovered the value of clear, concise user stories in guiding the development process and translating these stories into actionable development tasks. Moreover, we learned how to detail system functionalities and behaviors through use cases, ensuring a shared understanding among team members. This process enhanced communication, increased project transparency, and made our development efforts more efficient and goal-oriented. Additionally, we recognized the importance of continuous feedback to adjust user stories and use cases timely, ensuring the final product genuinely meets user needs.
 
+## Use Case Specifications
+TODO
 
-
+## Class Diagram
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/class_diagram.png)
 
 
 
