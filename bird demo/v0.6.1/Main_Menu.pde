@@ -1,6 +1,7 @@
 //Main menu display
 void drawMainMenu() {
-  background(255);
+  // iq23062 update
+  background(bgimg);
   startButton.display();
   settingButton.display();
 }

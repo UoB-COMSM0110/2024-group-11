@@ -19,6 +19,8 @@ void createInstance() {
   backToMainMenuButton = new Button(width/2, height/2 + 200, 350, 50, 150, "Back To Main Menu");
   singleButton = new Button(width*2/6, height*1/4, 250, 50, 150, "Single Player");
   doubleButton = new Button(width*4/6, height*1/4, 250, 50, 150, "Two Players");
+  // iq23062 update
+  backgroundButton = new Button(width*2/6, height*1/8, 250, 50, 150, "Change BG");
 
   //Buttons to choose bird1's colour
   buttons1 = new Button[7];

@@ -25,7 +25,8 @@ void drawLevel() {
   if (bird1.isDead && bird2.isDead &&isdouble) {
     currentState = STATE_END;
   }
-  background(255);
+  // iq23062 update
+  background(bgimg);
 
   if (bird1.invincibleTime < 90) {
     bird1.invincibleTime++;

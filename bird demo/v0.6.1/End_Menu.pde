@@ -1,6 +1,7 @@
 //End menu display
 void drawEnd() {
-  background(255);
+  // iq23062 update
+  background(bgimg);
   fill(255, 0, 0);
   textSize(40);
   text("GAME OVER", width/2, 100);

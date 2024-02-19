@@ -8,6 +8,13 @@ void setup() {
   bestScore = 0;
   isdouble = false;
   createInstance();
+  
+  //iq23062 update
+  bgstr = new ArrayList<String>();
+  bgstr.add("bg_sunny.png");
+  bgstr.add("bg_cloudy.png");
+  bgimg = loadImage(bgstr.get(bgstr_cnt));
+
 }
 
 void draw() {

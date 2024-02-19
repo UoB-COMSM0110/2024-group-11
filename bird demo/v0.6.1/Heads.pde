@@ -31,6 +31,14 @@ ArrayList<Pipe> pipes1;
 ArrayList<Pipe> pipes2;
 ArrayList<Coin> coins;
 
+// iq23062 update
+Button backgroundButton;
+ArrayList<String> bgstr;
+int bgstr_cnt = 0;
+PImage bgimg;
+
+
+
 void reset () {
   //Reset bird and score
   bird1.location = new PVector(width/10, height/4);

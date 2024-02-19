@@ -30,6 +30,12 @@ void mousePressed() {
     if (doubleButton.isMouseOver()) {
       isdouble = true;
     }
+    // iq23062 update
+    if (backgroundButton.isMouseOver()) {
+      bgstr_cnt += 1;
+      bgimg = loadImage(bgstr.get(bgstr_cnt%bgstr.size()));
+    }
+    
   }
   if (currentState == STATE_END) {
     if (playAgainButton.isMouseOver()) {

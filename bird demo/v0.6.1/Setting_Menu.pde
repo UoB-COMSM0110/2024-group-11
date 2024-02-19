@@ -1,10 +1,15 @@
 //Setting menu display
 void drawSettingMenu() {
-  background(255);
+  // iq23062 update
+  background(bgimg);
 
   singleButton.display();
   doubleButton.display();
   settingToMainButton.display();
+  
+  // iq23062 update
+  backgroundButton.display();
+  
   for (int i = 0; i < 7; i++) {
     fill(0);
     text("Player 1", width/2-200, 300);
