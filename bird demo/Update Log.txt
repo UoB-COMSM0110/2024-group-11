@@ -22,4 +22,6 @@ v0.6(2.16)
 
 v0.6.1(2.19)
 	1. This update only slightly tidied up the code, there is no update on game content.
-        2. Add background-changing feature
+        2. Add background-changing feature.
+	   (2.22)
+	3.For the convenience of drawing art resources, the length of the pipe is set to a random number in 200, 250, 300 and 350.

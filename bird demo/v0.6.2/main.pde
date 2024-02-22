@@ -13,9 +13,6 @@ void setup() {
   bgstr = new ArrayList<String>();
   bgstr.add("bg_sunny.png");
   bgstr.add("bg_cloudy.png");
-  bgstr.add("bg_forest.png");
-  bgstr.add("bg_mountain.png");
-  bgstr.add("bg_mountain2.png");
   bgimg = loadImage(bgstr.get(bgstr_cnt));
 
 }

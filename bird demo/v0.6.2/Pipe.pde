@@ -7,10 +7,9 @@ class Pipe {
   color pipeColour;
 
   Pipe() {
-    //Randomly generate pipe positions within a certain range
+    //Randomly generate pipe positions and lengths within a certain range
     y = floor(random(0, height));
-    //For the convenience of drawing art resources, the length of the pipe is set to a random number in 200, 250, 300 and 350
-    h = int(random(4)) * 50 + 200;  
+    h = floor(random(200, 350));
     //If the center point of the pipeline is on the upper half of the screen,
     //the initial direction of movement is down and vice versa
     if (y <= height / 2) {
