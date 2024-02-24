@@ -9,7 +9,8 @@ Jialun He, cb23036@bristol.ac.uk, kkggbo
 
 Ching-Chun Juan, iq23062@bristol.ac.uk, alicejuancc
 
-
+Lesheng Chen,
+pp23991@bristol.ac.uk,sepass2023ok(username)
 
 # Group Photo
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/assets/69910719/2221f7df-e9b5-4e8e-b8aa-bd7b3e7a9eb7)
