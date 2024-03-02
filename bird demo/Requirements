@@ -1,0 +1,25 @@
+Game Window/Display: Display the game graphics
+
+Bird: Create a bird character that players control
+
+Pipes: Create the pipes that the birds must evade, and the bird loses a life when it hits a pipe 
+
+Game Loop: Create the loop that continually updates the game state and graphics
+
+Score System: Keep score during the game, update it with pipes passed and coins gained
+
+Game Over: Game over when the bird loses all 3 lives 
+
+User Input: Control of up key and space bar for moving the birds
+
+Graphics and Animation: Visually appealing and smooth game
+
+Sound Effects and Music: Sound effects for jumping, passing through pipes and game over
+
+Responsive Design: Ensure the game works well on different screen sizes and resolutions
+
+Game Controls: Define and Communicate the Controls to the Player
+
+Testing: TEST the game throroughly to identify and remedy bugs
+
+Documentation: Clear documentation for the code to make it understandable and readable 
