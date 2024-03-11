@@ -1,0 +1,36 @@
+Task 1: GamePlay Evaluation 
+Objective: Assess the player's ability to control the bird and navigate through the pipes
+Tests: The player can move the bird, the player can collect a coin, the player can evade a pipe, the player can change the bird's colour
+Overall Test: Players should be able to achieve a score of 10 within 5 attempts (reasonable difficulty level)
+
+
+Task 2: Usability and UI Evaluation
+Objective: Evaluate the usability and user interface of the game
+Tests: The player can start the game, view the high score, and the player can restart the game
+Overall test: The game is played more than once
+
+We will not give the participants any information on the game beyond what is provided in the settings. If the participant cannot move the bird
+after 60 seconds, we will explain the space bar moves the bird in single-player and the up-arrow and spacebar in multiplayer
+
+We will record every instance we needed to give information during the evaluation and record the time taken for the player to adapt to the 
+game (achieve a score of 10) and note the player's reactions/feelings during the game 
+
+Participants A and B had no prior knowledge of the game 
+
+Results: It took Participant A 13 seconds to figure out how to control the bird
+It took the player 21 seconds to collect their first coin but had no issues with understanding the objective 
+They were able to go to the menu and change the bird's colour easily. 
+They achieved a score of 23 on their second attempt. 
+They liked the colour change to tell them one life was gone but noted it was difficult to tell that hitting the pipe would not lead to
+instant death. They liked the fact that designs were variable every time a new game was started. They liked the fact there was a learning 
+curve associated with the game. They found it easy to restart the game and could view the high score instantly 
+
+Participant B was then recruited and was not told any information about the game by Participant A. They were given the same tasks but in
+The two-player game. Participant A figured out that it was colour-coded as to which pipes to avoid after 25s. They noted it would be 
+useful to know which colour player 1 and player 2 was. Participant B still couldn't change the bird's colour after 84 seconds of gameplay. 
+They felt as though the game could've used some collision logic where the players bounce off of each other. 
+
+Both wondered what would happen if the 2 birds in the multi-player were the same colour.
+
+
+
