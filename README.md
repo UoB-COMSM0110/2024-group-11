@@ -159,6 +159,7 @@ Through the use of user stories and use cases, our team learned the importance o
 ## Class Diagram
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/class_diagram.png)
 
-
+## Heuristic Evaluation
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Heuristic_Evaluation.png)
 
 
