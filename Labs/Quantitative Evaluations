@@ -24,3 +24,29 @@ System Usability Scale /5
 - I found the product very awkward to use
 - I felt very confident using this product
 - I needed to learn a lot of things before I could get going with this product
+
+
+Calculating SUS
+Step 1: Convert the user ratings from the 10 questions into points
+
+For odd numbered questions 1, 3, 5, 7, 9:
+
+    [User Rating] – 1 = ___ points
+
+For even-numbered questions 2, 4, 6, 8, 10:
+
+    5 – [User Rating] = ___ points
+
+Step 2: Add up the points from the 10 questions into a user’s total points
+
+    [Question 1: __ points] + [Question 2: ___ points] + … [ Question 10: ___ points]  = ____ total points from user 1
+
+Step 3: Multiply the user’s total points X 2.5* to get an individual user’s score. 
+*This converts the scale to be out of 100. 
+
+    [Total points from user 1] x 2.5 = User #1 score
+
+Step 4: Repeat steps 1-3 for all users, and then average all user’s Scores together to get a SUS score:
+
+    User #1 score + user #2 score + user #3 + [etc.]  / # of users = SUS Score
+Reference: https://www.bentley.edu/centers/user-experience-center/what-every-client-should-know-about-sus-scores
