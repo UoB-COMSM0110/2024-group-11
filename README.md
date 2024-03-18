@@ -163,3 +163,48 @@ Through the use of user stories and use cases, our team learned the importance o
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Heuristic_Evaluation.png)
 
 
+## Quantitative evaluation - NASA TLX
+Evaluation 1 - 'Easy' mode
+
+Scores:
+
+|  Participant Number  | Mental demand | Physical demand | Temporal demand | Performance | Effort | Frustration |
+|  ----                | ----          | ----            |  ----           | ----        |----    |----         |
+| 1                    |               |                 |                 |             |        |             |
+| 2                    |               |                 |                 |             |        |             |
+| 3                    |               |                 |                 |             |        |             |
+| 4                    |               |                 |                 |             |        |             |
+| 5                    |               |                 |                 |             |        |             |
+| 6                    |               |                 |                 |             |        |             |
+| 7                    |               |                 |                 |             |        |             |
+| 8                    |               |                 |                 |             |        |             |
+| 9                    |               |                 |                 |             |        |             |
+| 10                   |               |                 |                 |             |        |             |
+
+
+Evaluation 2 - 'Hard' mode
+
+Scores:
+
+|  Participant Number  | Mental demand | Physical demand | Temporal demand | Performance | Effort | Frustration |
+|  ----                | ----          | ----            |  ----           | ----        |----    |----         |
+| 1                    |               |                 |                 |             |        |             |
+| 2                    |               |                 |                 |             |        |             |
+| 3                    |               |                 |                 |             |        |             |
+| 4                    |               |                 |                 |             |        |             |
+| 5                    |               |                 |                 |             |        |             |
+| 6                    |               |                 |                 |             |        |             |
+| 7                    |               |                 |                 |             |        |             |
+| 8                    |               |                 |                 |             |        |             |
+| 9                    |               |                 |                 |             |        |             |
+| 10                   |               |                 |                 |             |        |             |
+
+
+Final Scores:
+|  Score Type  | 1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |
+|  ----        |----|----|----|----|----|----|----|----|----|----|
+| Easy         |    |    |    |    |    |    |    |    |    |    |
+| Hard         |    |    |    |    |    |    |    |    |    |    |
+
+
+
