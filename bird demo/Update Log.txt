@@ -27,9 +27,14 @@ v0.6.1(2.19)
 	3.For the convenience of drawing art resources, the length of the pipe is set to a random number in 200, 250, 300 and 350.
 
 v0.6.2(3.11)
-
 1.Fixed a bug that previously caused collision detection with pipes to not work as expected when two players had the same color.
 2.Modified the method of generating pipes and coins, now pipes will appear earlier at the start of the game. (In previous versions, it took three to four seconds for the first pipe to appear after starting the game, now it will be generated immediately after starting.)
 3.The keyPressed() method was mistakenly placed in the Button class tab; it has now been moved to the Mouse and KB tab.
 4.Installed the Sound library, now audio files can be added. ( All button click sound effects have been implemented.)
+
+0.7(3.22)
+1. Refactoring code.
+2. Implemented sound effects and art resources.
+3. Added enemy, Eagle, will attack birds at regular intervals.
+4. The game mechanism has been modified so that when a bird passes through the screen from below, it will fall from above, and vice versa.
 
