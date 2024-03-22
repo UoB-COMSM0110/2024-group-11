@@ -9,6 +9,8 @@ Jialun He, cb23036@bristol.ac.uk, kkggbo
 
 Ching-Chun Juan, iq23062@bristol.ac.uk, alicejuancc
 
+Chen Lesheng，pp23991@bristol.ac.uk,chenlesheng2000(se2023passok)
+
 
 
 # Group Photo
