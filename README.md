@@ -152,14 +152,32 @@ Future: Customization options expand with new updates, achievements (Such as bro
 ## Use Case Diagram
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/flappy_bird_diagram.png)
 
+
 ## Reflection
 Through the use of user stories and use cases, our team learned the importance of understanding and addressing the specific needs of different stakeholders. We discovered the value of clear, concise user stories in guiding the development process and translating these stories into actionable development tasks. Moreover, we learned how to detail system functionalities and behaviors through use cases, ensuring a shared understanding among team members. This process enhanced communication, increased project transparency, and made our development efforts more efficient and goal-oriented. Additionally, we recognized the importance of continuous feedback to adjust user stories and use cases timely, ensuring the final product genuinely meets user needs.
+
 
 ## Use Case Specification
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Use_Case_Specification.png)
 
+
 ## Class Diagram
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/class_diagram.png)
+
+
+## Think Aloud
+Two tasks:
+1.Change bird color.
+2.Get 20 points.
+
+Critical Moments:
+1.Start the game directly and cannot find the setting.
+2.Don't know how to move.
+3.Get used to using the mouse for ascending operations rather than the keyboard.
+4.No awareness of avoiding obstacles.
+5.Have the awareness to take the initiative to eat gold coins.
+6.The game will not always be in a floating state. It will tend to be at the top or bottom as long as it is guaranteed not to die.
+
 
 ## Heuristic Evaluation
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Heuristic_Evaluation.png)
