@@ -184,6 +184,9 @@ Critical Moments:
 
 
 ## Quantitative evaluation - NASA TLX
+
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/NASATLX&SUS.png)
+<!--
 Evaluation 1 - 'Easy' mode
 
 Scores:
@@ -225,6 +228,8 @@ Final Scores:
 |  ----        |----|----|----|----|----|----|----|----|----|----|
 | Easy         |    |    |    |    |    |    |    |    |    |    |
 | Hard         |    |    |    |    |    |    |    |    |    |    |
+
+-->
 
 
 ## Challenges
