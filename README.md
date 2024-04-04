@@ -183,9 +183,9 @@ Critical Moments:
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Heuristic_Evaluation.png)
 
 
-## Quantitative evaluation - NASA TLX
-
+## Quantitative evaluation - NASA TLX AND System Usability Scale
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/NASATLX&SUS.png)
+
 <!--
 Evaluation 1 - 'Easy' mode
 
