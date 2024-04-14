@@ -154,7 +154,7 @@ Future: Customization options expand with new updates, achievements (Such as bro
 
 
 ## Reflection
-Through the use of user stories and use cases, our team learned the importance of understanding and addressing the specific needs of different stakeholders. We discovered the value of clear, concise user stories in guiding the development process and translating these stories into actionable development tasks. Moreover, we learned how to detail system functionalities and behaviors through use cases, ensuring a shared understanding among team members. This process enhanced communication, increased project transparency, and made our development efforts more efficient and goal-oriented. Additionally, we recognized the importance of continuous feedback to adjust user stories and use cases timely, ensuring the final product genuinely meets user needs.
+Our team learned a lot from using user stories and use cases. We found that a well-written user story helps guide our development work by making clear what needs to be done. Use cases are great too. They help us describe how the system should behave, ensuring that everyone in the team is on the same page. This approach improves our communication and makes our work more transparent and efficient. We also realized how crucial it is to keep getting feedback and to adjust our plans based on that feedback. So that, we can make sure our final product can meet our users' needs.
 
 
 ## Use Case Specification
