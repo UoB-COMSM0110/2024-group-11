@@ -38,3 +38,8 @@ v0.6.2(3.11)
 3. Added enemy, Eagle, will attack birds at regular intervals.
 4. The game mechanism has been modified so that when a bird passes through the screen from below, it will fall from above, and vice versa.
 
+0.7.1(4.15)
+1. Added the game logo(Flight Chase) on main page.
+2. Added the function of pause/continue.
+3. Added short instructions of keyboard on level(playing) page.
+
