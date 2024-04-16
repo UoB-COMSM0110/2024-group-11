@@ -37,13 +37,13 @@ class Bird {
     PImage shield = loadImage("Birds/"+ colour + ".png");
     if (isInvincible) {
       if (invincibleTime<fallTime&&invincibleTime>rebornTime) {
-        shield = loadImage("shield/invincible_shield1.png");
+        shield = loadImage("Shield/invincible_shield1.png");
       } else if (invincibleTime>30) {
-        shield = loadImage("shield/invincible_shield2.png");
+        shield = loadImage("Shield/invincible_shield2.png");
       } else if (invincibleTime>15) {
-        shield = loadImage("shield/invincible_shield3.png");
+        shield = loadImage("Shield/invincible_shield3.png");
       } else {
-        shield = loadImage("shield/invincible_shield4.png");
+        shield = loadImage("Shield/invincible_shield4.png");
       }
       invincibleTime--;
       if (invincibleTime<=0) {
