@@ -174,17 +174,15 @@ As the game development progressed, we found that we needed more classes and fun
 
 Besides the core elements of the game, we also add a class of eagle as the twist to the game, to increase the difficulty of the game and give players unexpected surprises. Also, we transformed the main game screens: Main Menu, Settings Menu, Level (Playing screen), and GameOverMenu into classes to facilitate independent development.
 
-**Behavioral diagram**
+**Behavioural diagram**
 
-"Flight Chase" is a game with a straightforward objective: players must navigate through obstacles, such as pipes and eagles, while collecting as many coins as possible. Therefore, we made a behavioral diagram so that we can have a clearer understanding of interaction between objects during the development process.
-![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/behavioralDiagram.png)
+"Flight Chase" is a game with a straightforward objective: players must navigate through obstacles, such as pipes and eagles, while collecting as many coins as possible. Therefore, we made a behavioural diagram so that we can have a clearer understanding of interaction between objects during the development process.
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/behaviouralDiagram.png)
 
 **Design Conclusion**
 
 In conclusion, prior to game development, we applied the software engineering methods learned in the taught component of this module to outline a rough system architecture. This allowed us to quickly develop prototypes, and facilitate rapid consensus among all team members on content of game to reduce communication time.
-
 By adopting the Agile methodology, we iterated through seven versions throughout the development process. Despite we have set up initial system architecture at the stage of design, new ideas will still appear during the development process, and the final Class diagrams are much more complex than the initial version, and there are also many differences between the original design documents and the final game results. Obviously, design documents cannot provide all the details in the development stage as a reference. We have to improve and add the content in design documents while thinking about what variables and methods are needed for the new classes during the development process.
-
 However, it is undeniable that a clear System architecture is essential for the development process. It serves as the backbone of the game and provides the stable foundation upon which all other design elements are built.
 
 # Evaluation
