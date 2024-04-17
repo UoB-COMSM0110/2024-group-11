@@ -177,16 +177,16 @@ We have set up two tasks for Think Aloud:
 In the process of completing the task, we take into account the user's behavior and language. We invited 5 users to conduct this test and compiled the results of 3 more representative users.
 
 Think Aloud 1:
-Advantages: The game rules are simple and easy to understand and easy to use, and different objects have clear identification.
-Disadvantages: Can't find the keyboard keys required for the game immediately, and don't know how to change some settings.
+Advantages: The game rules are simple and easy to understand. Also, it easy to use and different objects have clear identification.
+Disadvantages: People can't find the keyboard keys required for the game immediately and don't know how to change some settings.
 
 Think Aloud 2:
 Advantages: Most people have experience in the same type of games and can understand and complete tasks well.
-Disadvantages: I don’t know the function of elements that are different from traditional games at first, such as yellow dots that increase points.
+Disadvantages: People don’t know the function of elements that are different from traditional games at first, such as yellow dots that increase points.
 
 Think Aloud 3:
-Advantages: It can simulate gravity to make it fall down, and you can see your current score and life.
-Disadvantages: You will not die when you hit bottom or top, which reduces the difficulty and playability of the game.
+Advantages: It can simulate gravity to make it fall down and people can see your current score and life.
+Disadvantages: People will not die when they hit bottom or top, which reduces the difficulty and playability of the game.
 
 ### Heuristic Evaluation
 | Interface                 | Issue                                                        | Heuristic(s)            | Frequency 0 (rare) to 4 (common) | Impact 0 (easy) to 4 (difficult) | Persistence 0 (once) to 4 (repeated) | Severity = Sum Total of (F+I+P)/3 |
