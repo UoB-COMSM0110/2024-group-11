@@ -210,9 +210,9 @@ These issues have been mentioned many times in Think Aloud and have relatively h
 Solution:
 1. Added text guidance to the game to explain the rules.
 2. Add a button to pause the game in the game.
-3. Optimize the game graphics and replace the original elements with simple and easy-to-read patterns, such as giving yellow dots to coin patterns.
+3. Optimize the game graphics and replace the original elements with simple and easy-to-read patterns, such as changing yellow dots to coin patterns.
 
-I believe that after solving these problems, the quality of our games will be significantly improved.
+We believe that after solving these problems, the quality of our games will be significantly improved.
 
 ## Quantitative evaluation
 
@@ -233,7 +233,7 @@ Easy Mode: NASA TLX
 | 9                  | 12            | 13              | 12              | 12          | 11     | 10          |
 | 10                 | 2             | 1               | 1               | 2           | 3      | 2           |
 
-Difficult Mode: NASA TLX
+Hard Mode: NASA TLX
 | Participant Number | Mental demand | Physical demand | Temporal demand | Performance | Effort | Frustration |
 |--------------------|---------------|-----------------|-----------------|-------------|--------|-------------|
 | 1                  | 10            | 6               | 10              | 6           | 16     | 16          |
@@ -248,18 +248,18 @@ Difficult Mode: NASA TLX
 | 10                 | 5             | 5               | 10              | 10          | 11     | 10          |
 
 Final Result
-| Participant Number | Easy Mode Workload | Difficult Mode Workload | Difference |
-|--------------------|--------------------|------------------------|------------|
-| 1                  | 11                 | 64                      | -53        |
-| 2                  | 63                 | 94                      | -31        |
-| 3                  | 72                 | 98                      | -26        |
-| 4                  | 35                 | 94                      | -59        |
-| 5                  | 60                 | 104                     | -44        |
-| 6                  | 16                 | 92                      | -76        |
-| 7                  | 55                 | 79                      | -24        |
-| 8                  | 32                 | 78                      | -46        |
-| 9                  | 70                 | 87                      | -17        |
-| 10                 | 11                 | 51                      | -40        |
+| Participant Number | Easy Mode Workload | Hard Mode Workload | Difference |
+|--------------------|--------------------|--------------------|------------|
+| 1                  | 11                 | 64                 | -53        |
+| 2                  | 63                 | 94                 | -31        |
+| 3                  | 72                 | 98                 | -26        |
+| 4                  | 35                 | 94                 | -59        |
+| 5                  | 60                 | 104                | -44        |
+| 6                  | 16                 | 92                 | -76        |
+| 7                  | 55                 | 79                 | -24        |
+| 8                  | 32                 | 78                 | -46        |
+| 9                  | 70                 | 87                 | -17        |
+| 10                 | 11                 | 51                 | -40        |
 
 To perform a significance test for NASA TLX, we used the Wilxocon signed-rank test. We analyzed the test results and believed that only a p value of 0.05 was significant. The following is the detection process:
 
@@ -277,7 +277,7 @@ Wilcoxon Signed-Rank Test Calculator process
 | -59        | 9    | -9          |
 | -76        | 10   | -10         |
 
-We can conclude from the above that the positive sum of ranks is 0 and the sum of negative ranks is 55, so the W value is 0 (the W value is just the smaller of the positive and negative sums). This is well below the W value of 8 required for statistical significance. In fact, a W value of 0 is statistically significant with a p value of 0.05. These results confirm that the increase in difficulty of our game's "Hard" mode relative to "Easy" mode is statistically significant. In addition to this, the result of W test statistic = 0 is consistent with a p-value of 0.005, which further illustrates that our hard mode is more difficult than expected.
+We can conclude from the above that the positive sum of ranks is 0 and the sum of negative ranks is 55, so the W value is 0 (the W value is just the smaller of the positive and negative sums). This is well below the W value of 8 required for statistical significance. In fact, a W value of 0 is statistically significant with a p value of 0.05. These results confirm that the increase in difficulty of our game's "Hard" mode relative to "Easy" mode is statistically significant. In addition, the result of W test statistic = 0 is consistent with a p-value of 0.005, which further illustrates that our hard mode is more difficult than expected.
 
 ## Testing
 
