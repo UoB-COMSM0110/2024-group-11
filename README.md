@@ -217,7 +217,7 @@ I believe that after solving these problems, the quality of our games will be si
 ## Quantitative evaluation
 
 ### NASA TLX
-
+We use NASA TLX to evaluate the difficulty of the game. We invited ten participants to rate the easy mode and the difficult mode. The following are the scoring results:
 
 ## Challenges
 ### Challenge 1: Collision Detection.
