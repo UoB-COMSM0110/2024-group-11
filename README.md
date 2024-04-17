@@ -171,9 +171,8 @@ We used two methods, Think Aloud and Heuristic Evaluations, in the quality evalu
 
 ### Think Aloud
 We have set up two tasks for Think Aloud: 
-
-1.Change bird color.
-2.Get 20 points.
+1. Change bird color.
+2. Get 20 points.
 
 In the process of completing the task, we take into account the user's behavior and language. We invited 5 users to conduct this test and compiled the results of 3 more representative users.
 
@@ -294,7 +293,7 @@ We open the archive as a new player and set two tasks:
 1. Score accumulation: whether you can add points by interacting with gold coins or passing through pipes.
 2. Highest score record: Whether the highest score scored by a player will be recorded.
 
-After the test, we found that the actual results were the same as the expected results, and there were no functional defects or abnormalities.
+After the test, we found that the actual results were the same as the expected results and there were no functional defects or abnormalities.
 
 ## Challenges
 ### Challenge 1: Collision Detection.
