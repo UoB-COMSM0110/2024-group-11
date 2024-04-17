@@ -164,26 +164,35 @@ Our team learned a lot from using user stories and use cases. We found that a we
 ## Class Diagram
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/class_diagram.png)
 
+# Evaluation
 
-## Think Aloud
-Two tasks:
-1. Change bird color.
-2. Get 20 points.
+## Quality Evaluation
+We used two methods, Think Aloud and Heuristic Evaluations, in the quality evaluation. They helped us understand the users’ thoughts well and help with improvements in the next stage.
 
-Critical Moments:
-1. Start the game directly and cannot find the setting.
-2. Don't know how to move.
-3. Get used to using the mouse for ascending operations rather than the keyboard.
-4.No awareness of avoiding obstacles.
-5. Have the awareness to take the initiative to eat gold coins.
-6. The game will not always be floating. It will tend to be at the top or bottom as long as it is guaranteed not to die.
+### Think Aloud
+We have set up two tasks for Think Aloud:
+1.Change bird color.
+2.Get 20 points.
 
+In the process of completing the task, we take into account the user's behavior and language. We invited 5 users to conduct this test and compiled the results of 3 more representative users.
 
-## Heuristic Evaluation
+Think Aloud 1:
+Advantages: The game rules are simple and easy to understand and easy to use, and different objects have clear identification.
+Disadvantages: Can't find the keyboard keys required for the game immediately, and don't know how to change some settings.
+
+Think Aloud 2:
+Advantages: Most people have experience in the same type of games and can understand and complete tasks well.
+Disadvantages: I don’t know the function of elements that are different from traditional games at first, such as yellow dots that increase points.
+
+Think Aloud 3:
+Advantages: It can simulate gravity to make it fall down, and you can see your current score and life.
+Disadvantages: You will not die when you hit bottom or top, which reduces the difficulty and playability of the game.
+
+### Heuristic Evaluation
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Heuristic_Evaluation.png)
 
 
-## Quantitative evaluation - NASA TLX AND System Usability Scale
+### Quantitative evaluation - NASA TLX AND System Usability Scale
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/NASATLX&SUS.png)
 
 <!--
