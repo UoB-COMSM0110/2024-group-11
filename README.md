@@ -198,7 +198,21 @@ Disadvantages: You will not die when you hit bottom or top, which reduces the di
 | Game display interface    | The pattern of gold coins is not obvious and can easily be misunderstood. | Consistency and standards | 4                              | 1                                 | 4                                   | 3.00                               |
 | Difficulty selection interface | No option to increase difficulty                          | User control and freedom | 2                                | 2                                 | 3                                   | 2.33                               |
 
+According to Heuristic Evaluations we found that there are three issues with Severity at 3 or above which indicates that these three issues need us to solve them in time, among which There are no detailed operating instructions and I don't know how to operate and the rules of the game. This one The problem is the most important, its Severity is 3.33, which is the highest among all projects, which shows that it will greatly affect the user experience.
 
+Combining Think Aloud and Heuristic Evaluations, we found that there are several major problems:
+1. There are no detailed operating instructions, and users do not know how to operate.
+2. The game cannot be paused during the game.
+3. Some game elements are not very recognizable.
+
+These issues have been mentioned many times in Think Aloud and also have relatively high Severity in Heuristic Evaluations. This means that this will be an issue that we will focus on and solve in the next phase. We held group discussions and identified solutions to address these issues in the next phase.
+
+Solution:
+1. Added text guidance to the game to explain the rules.
+2. Add a button to pause the game in the game.
+3. Optimize the game graphics and replace the original elements with simple and easy-to-read patterns, such as giving yellow dots to coin patterns.
+
+I believe that after solving these problems, the quality of our games will be significantly improved.
 
 ### Quantitative evaluation - NASA TLX AND System Usability Scale
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/NASATLX&SUS.png)
