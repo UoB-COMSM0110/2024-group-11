@@ -160,8 +160,6 @@ Our team learned a lot from using user stories and use cases. We found that a we
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Use_Case_Specification.png)
 
 
-## Class Diagram
-![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/class_diagram.png)
 
 ## Design
 **Class diagram**
@@ -170,9 +168,9 @@ Regarding the system architecture, prior to the development process, we initiall
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram1.png)
 
 As the game development progressed, we found that we needed more classes and functions to not only increase the richness of the game, but also to make the code tidier to enhance readability. Throughout this process, we iterated through a total of seven versions, and by the final version the Class diagram has developed into the following architecture:
-![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram2.png)
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram3.png))
 
-Besides the core elements of the game, we also add a class of eagle as the twist to the game, to increase the difficulty of the game and give players unexpected surprises. Also, we transformed the main game screens: Main Menu, Settings Menu, Level (Playing screen), and GameOverMenu into classes to facilitate independent development.
+Besides the core elements of the game, we also added a class of eagle as the twist to the game, to increase the difficulty of the game and give players unexpected surprises. Also, we transformed the main game screens: Main Menu, Settings Menu, Level (Playing screen), and GameOverMenu into classes to facilitate independent development.
 
 **Behavioural diagram**
 
