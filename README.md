@@ -219,6 +219,74 @@ I believe that after solving these problems, the quality of our games will be si
 ### NASA TLX
 We use NASA TLX to evaluate the difficulty of the game. We invited ten participants to rate the easy mode and the difficult mode. The following are the scoring results:
 
+Easy Mode: NASA TLX
+| Participant Number | Mental demand | Physical demand | Temporal demand | Performance | Effort | Frustration |
+|--------------------|---------------|-----------------|-----------------|-------------|--------|-------------|
+| 1                  | 2             | 2               | 1               | 1           | 1      | 4           |
+| 2                  | 11            | 8               | 13              | 12          | 16     | 3           |
+| 3                  | 18            | 3               | 20              | 6           | 10     | 15          |
+| 4                  | 4             | 5               | 8               | 6           | 4      | 8           |
+| 5                  | 10            | 12              | 10              | 10          | 9      | 9           |
+| 6                  | 3             | 3               | 3               | 3           | 3      | 1           |
+| 7                  | 8             | 10              | 11              | 9           | 8      | 9           |
+| 8                  | 5             | 5               | 6               | 6           | 6      | 4           |
+| 9                  | 12            | 13              | 12              | 12          | 11     | 10          |
+| 10                 | 2             | 1               | 1               | 2           | 3      | 2           |
+
+Difficult Mode: NASA TLX
+| Participant Number | Mental demand | Physical demand | Temporal demand | Performance | Effort | Frustration |
+|--------------------|---------------|-----------------|-----------------|-------------|--------|-------------|
+| 1                  | 10            | 6               | 10              | 6           | 16     | 16          |
+| 2                  | 14            | 16              | 18              | 14          | 17     | 15          |
+| 3                  | 20            | 12              | 20              | 13          | 15     | 18          |
+| 4                  | 10            | 16              | 15              | 16          | 20     | 17          |
+| 5                  | 18            | 18              | 16              | 15          | 17     | 20          |
+| 6                  | 15            | 16              | 15              | 14          | 18     | 14          |
+| 7                  | 12            | 13              | 15              | 12          | 14     | 13          |
+| 8                  | 10            | 15              | 18              | 15          | 12     | 8           |
+| 9                  | 15            | 16              | 14              | 15          | 14     | 13          |
+| 10                 | 5             | 5               | 10              | 10          | 11     | 10          |
+
+Final Result
+| Participant Number | Easy Mode Workload | Difficult Mode Workload | Difference |
+|--------------------|--------------------|------------------------|------------|
+| 1                  | 11                 | 64                      | -53        |
+| 2                  | 63                 | 94                      | -31        |
+| 3                  | 72                 | 98                      | -26        |
+| 4                  | 35                 | 94                      | -59        |
+| 5                  | 60                 | 104                     | -44        |
+| 6                  | 16                 | 92                      | -76        |
+| 7                  | 55                 | 79                      | -24        |
+| 8                  | 32                 | 78                      | -46        |
+| 9                  | 70                 | 87                      | -17        |
+| 10                 | 11                 | 51                      | -40        |
+
+To perform a significance test for NASA TLX, we used the Wilxocon signed-rank test. We analyzed the test results and believed that only a p value of 0.05 was significant. The following is the detection process:
+
+Wilcoxon Signed-Rank Test Calculator process
+| Difference | Rank | Signed Rank |
+|------------|------|-------------|
+| -17        | 1    | -1          |
+| -24        | 2    | -2          |
+| -26        | 3    | -3          |
+| -31        | 4    | -4          |
+| -40        | 5    | -5          |
+| -44        | 6    | -6          |
+| -46        | 7    | -7          |
+| -53        | 8    | -8          |
+| -59        | 9    | -9          |
+| -76        | 10   | -10         |
+
+We can conclude from the above that the positive sum of ranks is 0 and the sum of negative ranks is 55, so the W value is 0 (the W value is just the smaller of the positive and negative sums). This is well below the W value of 8 required for statistical significance. In fact, a W value of 0 is statistically significant with a p value of 0.05. These results confirm that the increase in difficulty of our game's "Hard" mode relative to "Easy" mode is statistically significant. In addition to this, the result of W test statistic = 0 is consistent with a p-value of 0.005, which further illustrates that our hard mode is more difficult than expected.
+
+## Testing
+
+### White Box Testing
+We first find the code segment for collision implementation and set two tasks: 1. Boundary condition test: Check whether the object can correctly detect collision when it touches the boundary. 2. Overlap test: Test whether the system can accurately calculate and respond to collisions when two objects overlap. After the test, we found that the actual results were the same as the expected results, and there were no functional defects or abnormalities.
+
+### Black Box Testing
+We open the archive as a new player and set two tasks: 1. Score accumulation: whether you can add points by interacting with gold coins or passing through pipes. 2. Highest score record: Whether the highest score scored by a player will be recorded. After the test, we found that the actual results were the same as the expected results, and there were no functional defects or abnormalities.
+
 ## Challenges
 ### Challenge 1: Collision Detection.
 
