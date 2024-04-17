@@ -189,7 +189,15 @@ Advantages: It can simulate gravity to make it fall down, and you can see your c
 Disadvantages: You will not die when you hit bottom or top, which reduces the difficulty and playability of the game.
 
 ### Heuristic Evaluation
-![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Heuristic_Evaluation.png)
+| Interface                 | Issue                                                        | Heuristic(s)            | Frequency 0 (rare) to 4 (common) | Impact 0 (easy) to 4 (difficult) | Persistence 0 (once) to 4 (repeated) | Severity = Sum Total of (F+I+P)/3 |
+|---------------------------|--------------------------------------------------------------|-------------------------|----------------------------------|-----------------------------------|-------------------------------------|------------------------------------|
+| Game tutorial interface   | There are no detailed operating instructions and I don’t know how to operate and the rules of the game. | Help and documentation | 4                                | 4                                 | 2                                   | 3.33                               |
+| Game settings menu        | Can't pause during game play                                  | User control and freedom| 3                                | 3                                 | 3                                   | 3.00                               |
+| Game settings menu        | Navigation menus hide several important features, and users must remember where to find them. | Recognize rather than recall | 2                              | 2                                 | 4                                   | 2.67                               |
+| Game tutorial interface   | Two-player mode has special rules that are different from single-player mode. | Help and documentation | 1                                | 4                                 | 1                                   | 2.00                               |
+| Game display interface    | The pattern of gold coins is not obvious and can easily be misunderstood. | Consistency and standards | 4                              | 1                                 | 4                                   | 3.00                               |
+| Difficulty selection interface | No option to increase difficulty                          | User control and freedom | 2                                | 2                                 | 3                                   | 2.33                               |
+
 
 
 ### Quantitative evaluation - NASA TLX AND System Usability Scale
