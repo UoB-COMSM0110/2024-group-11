@@ -214,53 +214,9 @@ Solution:
 
 I believe that after solving these problems, the quality of our games will be significantly improved.
 
-### Quantitative evaluation - NASA TLX AND System Usability Scale
-![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/NASATLX&SUS.png)
+## Quantitative evaluation
 
-<!--
-Evaluation 1 - 'Easy' mode
-
-Scores:
-
-|  Participant Number  | Mental demand | Physical demand | Temporal demand | Performance | Effort | Frustration |
-|  ----                | ----          | ----            |  ----           | ----        |----    |----         |
-| 1                    |               |                 |                 |             |        |             |
-| 2                    |               |                 |                 |             |        |             |
-| 3                    |               |                 |                 |             |        |             |
-| 4                    |               |                 |                 |             |        |             |
-| 5                    |               |                 |                 |             |        |             |
-| 6                    |               |                 |                 |             |        |             |
-| 7                    |               |                 |                 |             |        |             |
-| 8                    |               |                 |                 |             |        |             |
-| 9                    |               |                 |                 |             |        |             |
-| 10                   |               |                 |                 |             |        |             |
-
-
-Evaluation 2 - 'Hard' mode
-
-Scores:
-
-|  Participant Number  | Mental demand | Physical demand | Temporal demand | Performance | Effort | Frustration |
-|  ----                | ----          | ----            |  ----           | ----        |----    |----         |
-| 1                    |               |                 |                 |             |        |             |
-| 2                    |               |                 |                 |             |        |             |
-| 3                    |               |                 |                 |             |        |             |
-| 4                    |               |                 |                 |             |        |             |
-| 5                    |               |                 |                 |             |        |             |
-| 6                    |               |                 |                 |             |        |             |
-| 7                    |               |                 |                 |             |        |             |
-| 8                    |               |                 |                 |             |        |             |
-| 9                    |               |                 |                 |             |        |             |
-| 10                   |               |                 |                 |             |        |             |
-
-
-Final Scores:
-|  Score Type  | 1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |
-|  ----        |----|----|----|----|----|----|----|----|----|----|
-| Easy         |    |    |    |    |    |    |    |    |    |    |
-| Hard         |    |    |    |    |    |    |    |    |    |    |
-
--->
+### NASA TLX
 
 
 ## Challenges
