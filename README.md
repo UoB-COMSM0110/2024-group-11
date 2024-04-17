@@ -170,7 +170,7 @@ Our team learned a lot from using user stories and use cases. We found that a we
 We used two methods, Think Aloud and Heuristic Evaluations, in the quality evaluation. They helped us understand the users’ thoughts well and help with improvements in the next stage.
 
 ### Think Aloud
-We have set up two tasks for Think Aloud:
+We have set up two tasks for Think Aloud: 
 1.Change bird color.
 2.Get 20 points.
 
@@ -282,10 +282,16 @@ We can conclude from the above that the positive sum of ranks is 0 and the sum o
 ## Testing
 
 ### White Box Testing
-We first find the code segment for collision implementation and set two tasks: 1. Boundary condition test: Check whether the object can correctly detect collision when it touches the boundary. 2. Overlap test: Test whether the system can accurately calculate and respond to collisions when two objects overlap. After the test, we found that the actual results were the same as the expected results, and there were no functional defects or abnormalities.
+We first find the code segment for collision implementation and set two tasks:
+1. Boundary condition test: Check whether the object can correctly detect collision when it touches the boundary.
+2. Overlap test: Test whether the system can accurately calculate and respond to collisions when two objects overlap.
+After the test, we found that the actual results were the same as the expected results and there were no functional defects or abnormalities.
 
 ### Black Box Testing
-We open the archive as a new player and set two tasks: 1. Score accumulation: whether you can add points by interacting with gold coins or passing through pipes. 2. Highest score record: Whether the highest score scored by a player will be recorded. After the test, we found that the actual results were the same as the expected results, and there were no functional defects or abnormalities.
+We open the archive as a new player and set two tasks: 
+1. Score accumulation: whether you can add points by interacting with gold coins or passing through pipes.
+2. Highest score record: Whether the highest score scored by a player will be recorded.
+After the test, we found that the actual results were the same as the expected results, and there were no functional defects or abnormalities.
 
 ## Challenges
 ### Challenge 1: Collision Detection.
