@@ -17,7 +17,6 @@ Chen Lesheng，pp23991@bristol.ac.uk,chenlesheng2000(se2023passok)
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/assets/69910719/2221f7df-e9b5-4e8e-b8aa-bd7b3e7a9eb7)
 
 
-
 # Game ideas:
 ## Game Idea 1: Flappy Bird Name: Chameleon Chase 
 In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. 
@@ -166,19 +165,22 @@ Our team learned a lot from using user stories and use cases. We found that a we
 
 ## Design
 **Class diagram**
+
 Regarding the system architecture, prior to the development process, we initially defined the core elements of the game: birds, pipes, coins, and user interface buttons. During this stage, we formulated the initial version of the class diagram.
-(pic of Class diagram 1)
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram1.png)
 
 As the game development progressed, we found that we needed more classes and functions to not only increase the richness of the game, but also to make the code tidier to enhance readability. Throughout this process, we iterated through a total of seven versions, and by the final version the Class diagram has developed into the following architecture:
-(pic of Class diagram 2)
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram2.png)
 
 Besides the core elements of the game, we also add a class of eagle as the twist to the game, to increase the difficulty of the game and give players unexpected surprises. Also, we transformed the main game screens: Main Menu, Settings Menu, Level (Playing screen), and GameOverMenu into classes to facilitate independent development.
 
 **Behavioral diagram**
+
 "Flight Chase" is a game with a straightforward objective: players must navigate through obstacles, such as pipes and eagles, while collecting as many coins as possible. Therefore, we made a behavioral diagram so that we can have a clearer understanding of interaction between objects during the development process.
-(pic of Behavioral diagram)
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/behavioralDiagram.png)
 
 **Design Conclusion**
+
 In conclusion, prior to game development, we applied the software engineering methods learned in the taught component of this module to outline a rough system architecture. This allowed us to quickly develop prototypes, and facilitate rapid consensus among all team members on content of game to reduce communication time.
 
 By adopting the Agile methodology, we iterated through seven versions throughout the development process. Despite we have set up initial system architecture at the stage of design, new ideas will still appear during the development process, and the final Class diagrams are much more complex than the initial version, and there are also many differences between the original design documents and the final game results. Obviously, design documents cannot provide all the details in the development stage as a reference. We have to improve and add the content in design documents while thinking about what variables and methods are needed for the new classes during the development process.
