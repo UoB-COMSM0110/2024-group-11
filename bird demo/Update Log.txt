@@ -42,4 +42,5 @@ v0.6.2(3.11)
 1. Added the game logo(Flight Chase) on main page.
 2. Added the function of pause/continue.
 3. Added short instructions of keyboard on level(playing) page.
+4. Added font and slightly modified the layout of buttons on setting page.(4.20)
 
