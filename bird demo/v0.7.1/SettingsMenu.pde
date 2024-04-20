@@ -15,8 +15,8 @@ class SettingsMenu {
     bird2ColourSelector = new ArrayList<Button>();
     buttons.add(backToMainMenuButton = new Button(width/2, height * 9/10, 3, "backtomainmenu_blue"));
     buttons.add(changeBGButton = new Button(width/5, height/10, 2, "changeground_blue"));
-    buttons.add(singlePlayerButton = new Button((width/2)-150, height * 1/5, 2, "singleplayer_orange"));
-    buttons.add(twoPlayersButton = new Button((width/2)+150, height * 1/5, 2, "twoplayers_blue"));
+    buttons.add(singlePlayerButton = new Button((width/2)-150, height * 1/5 + 50, 2, "singleplayer_orange"));
+    buttons.add(twoPlayersButton = new Button((width/2)+150, height * 1/5 + 50, 2, "twoplayers_blue"));
     buttons.add(normalModeButton = new Button((width/2)-150, height * 2/5, 2, "normalmode_orange"));
     buttons.add(difficultModeButton = new Button((width/2)+150, height * 2/5, 2, "difficultmode_blue"));
 
@@ -41,11 +41,15 @@ class SettingsMenu {
     for (Button button : bird1ColourSelector) {
       button.display();
     }
+    fill(0);
+    textSize(20);
+    text("Player1 [SPACE]", (width/2)- 190, height * 3/5);
     image(loadImage("Birds/"+ level.bird1Colour + ".png"), (width/2)-80, height * 3/5);
     if (level.isTwoPlayers) {
       for (Button button : bird2ColourSelector) {
         button.display();
       }
+      text("Player2 [UP]", (width/2)- 190, height * 3/5 +60);
       image(loadImage("Birds/"+ level.bird2Colour + ".png"), (width/2)-80, height * 3/5 +60);
     }
   }

@@ -31,13 +31,13 @@ void mousePressed() {
     }
     if (settingsMenu.singlePlayerButton.isClicked(mouseX, mouseY)) {
       level.isTwoPlayers = false;
-      settingsMenu.buttons.set(2, new Button((width/2)-150, height * 1/5, 2, "singleplayer_orange"));
-      settingsMenu.buttons.set(3, new Button((width/2)+150, height * 1/5, 2, "twoplayers_blue")) ;
+      settingsMenu.buttons.set(2, new Button((width/2)-150, height * 1/5 + 50, 2, "singleplayer_orange"));
+      settingsMenu.buttons.set(3, new Button((width/2)+150, height * 1/5 + 50, 2, "twoplayers_blue")) ;
     }
     if (settingsMenu.twoPlayersButton.isClicked(mouseX, mouseY)) {
       level.isTwoPlayers = true;
-      settingsMenu.buttons.set(2, new Button((width/2)-150, height * 1/5, 2, "singleplayer_blue"));
-      settingsMenu.buttons.set(3, new Button((width/2)+150, height * 1/5, 2, "twoplayers_orange"));
+      settingsMenu.buttons.set(2, new Button((width/2)-150, height * 1/5 + 50, 2, "singleplayer_blue"));
+      settingsMenu.buttons.set(3, new Button((width/2)+150, height * 1/5 + 50, 2, "twoplayers_orange"));
     }
     String[] colours= {"red", "orange", "yellow", "green", "cyan", "blue", "purple"};
     for (int i = 0; i < settingsMenu.bird1ColourSelector.size(); i++) {
@@ -84,8 +84,10 @@ void keyPressed() {
   }
   if (currentUI == InLevel && (key == 'p' || key == 'P')) {
     fill(248,248,250,150);
+    textFont(font2);
     textSize(200);
     text("Pause",width/2,(height/2)-50);
+    textFont(font1);
     textSize(50);
     text("Press C to continue",width/2,(height/2)+100);
     noLoop();

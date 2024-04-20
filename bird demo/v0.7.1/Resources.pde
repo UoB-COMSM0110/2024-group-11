@@ -3,6 +3,8 @@ int currentBG = 0;
 PImage BG;
 ArrayList<String> bgStr = new ArrayList<String>();
 ArrayList<String> birdColour = new ArrayList<String>();
+PFont font1;
+PFont font2;
 
 SoundFile buttonClickSound;
 SoundFile birdDieSound;
@@ -36,4 +38,8 @@ void loadResources() {
   menuBGM = new SoundFile(this, "music/menu.mp3");
   normalModeLevelBGM = new SoundFile(this, "music/normalMode.MP3");
   difficultModeLevelBGM = new SoundFile(this, "music/difficultMode.MP3");
+  
+  font1 = loadFont("Font/Optima-Bold-48.vlw");
+  font2 = loadFont("Font/Optima-Bold-200.vlw");
+  textFont(font1);
 }

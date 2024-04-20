@@ -56,6 +56,7 @@ class Bird {
         y = y + height + 25;
       }
       if (y>=height + 25) {
+        y =  0;
         y = y - height - 25;
       }
     }
@@ -143,13 +144,13 @@ class Bird {
 
   void showScore() {
     fill(0);
-    textSize(32);
+    textSize(30);
     if (isPlayer1) {
-      text("Player1 score: " + score, 120, 30);
-      text("life: " + life, 270, 30);
+      text("Player1 Score: " + score, 120, 30);
+      text("Life: " + life, 300, 30);
     } else {
-      text("Player2 score: " + score, 120, 60);
-      text("life: " + life, 270, 60);
+      text("Player2 Score: " + score, 120, 60);
+      text("Life: " + life, 300, 60);
     }
   }
 

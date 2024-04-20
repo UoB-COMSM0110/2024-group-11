@@ -212,9 +212,9 @@ public class Level {
   void showInstructions(){
     fill(255);  
     noStroke(); 
-    rect(0, height - 30, 180, 20);  
+    rect(0, height - 30, 200, 20);  
     fill(0); 
     textSize(20);
-    text("[P]: pause / [Q]: quit", 90, height - 20);
+    text("[P]: Pause / [Q]: Quit", 100, height - 20);
   }
 }
