@@ -62,6 +62,7 @@ The game ends when the health points reach zero or the player falls to the botto
 
 
 # Requirements
+
 ## Stakeholders and user stories
 1. Game Developers and Designers
 - I want a robust game engine that supports both 2D and 3D graphics, allowing for flexible and visually stunning gameplay
@@ -106,7 +107,7 @@ of marketing campaigns, optimize future marketing strategies, and better communi
 7. Quality Assurance Testers
 - I want the game development team to provide comprehensive test plans and test cases to ensure the stability, performance and user experience of the game is optimal.
 - I want to be able to use professional testing tools and automated test scripts to discover and report problems promptly.
-- I want the development team to actively respond to test feedback, fix discovered defects promptly and provide detailed test reports and records to track and verify problem resolution.
+- I want the development team to respond to test feedback, fix discovered defects promptly and provide detailed test reports and records to track and verify problem resolution.
 
 8. Community Managers
 - I want to build and maintain an active game community and promote communication, interaction and cooperation among players.
