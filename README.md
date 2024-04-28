@@ -188,7 +188,7 @@ Regarding the system architecture, before the development process, we initially 
 
 As the game development progressed, we needed more classes and functions to increase the richness of the game, make the code tidier and enhance readability. Throughout this process, we iterated through seven versions, and by the final version, the class diagram has developed into the following architecture. Besides the core elements, we also added a class of the eagle as the twist to the game, to increase the difficulty, giving players surprises. Also, we transformed the main game screens: Main Menu, Settings Menu, Level (Playing screen), and GameOverMenu into classes to facilitate independent development.
 
-![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram3.png)
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram3_new.png)
 
 
 ### Behavioural diagram
