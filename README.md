@@ -80,43 +80,13 @@ Future: Customization options expand with new updates, and achievements (Such as
 -->
 
 ## Early stages design and ideation process
-### Game Idea 1: Flappy Bird Name: Chameleon Chase 
-In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. 
-The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them.
-The second twist is that the pipes move dynamically to trap the bird.
-The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys)
 
-### Game Idea 2: BrickBreaker
+In the early stages we had various ideas for the game such as Flappy Bird, BrickBreaker and NS-Shaft. After a group discussion, we decided to implement Paper Protopyes on the two ideas with the highest support.
 
-In "Pixel Bouncer," the classic brick breaker game takes a twist with a pixelated, retro aesthetic. 
-Players control a bouncing pixel ball to break colourful pixel bricks in a dynamic and evolving environment. 
-The twist comes with various power-ups, challenging obstacles, and a unique bouncing mechanic.
-The speed and direction are adjustable. Hitting  a CERTAIN moving animal ends the game. 
-There are multiple imitating levels of increasing difficulty and hitting a certain ball can reverse direction, change ball size, and reverse
-gravity. 
-
-### Game Idea 3: NS-Shaft
-
-In the game, a player can control the left and right direction keys to move to the left or right. 
-As the platform continues to rise, the goal is to allow the player to go down the maximum number of floors.
-The player has a total of 12 points of health. If contacting the spikes on the ceiling or the spike platform, 
-he will receive negative points of damage. 
-The game ends when the health points reach zero or the player falls to the bottom.
-
-  Twist:
-  Items appear randomly to allow the player to restore health points or change the platform on the field.
-
-  Challenges: 
-  1. Implementing dynamic behaviours for various platforms (ordinary, fake, spring, crawler, spiked) and ensuring precise collision detection.
-  2. Managing the health system and accurately calculating damage from spiked platforms.
-  3. Balancing difficulty across platform types, adjusting spiked platform frequency, and the speed of the rising platform.
-
-
-
-## Paper Protopyes
-### 1. NS-Shaft
+### Paper Protopyes
+#### 1. NS-Shaft
 [![](./Images/Prototype1.png)](https://drive.google.com/file/d/1rs3dhTJLfhT_UdmvRboXBJdfwgNGlJ5o/view?usp=sharing)
-### 2.Colourful Flappy Bird
+#### 2.Colourful Flappy Bird
 [![](./Images/Prototype2.png)](https://drive.google.com/file/d/1P0VZh37yRYIMSRiT_hydD6VuRLFyvlS6/view?usp=sharing)
 
 
