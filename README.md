@@ -170,17 +170,13 @@ Future: Customization options expand with new updates, and achievements (Such as
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/flappy_bird_diagram.png)
 
 
-## Reflection
-Our team learned a lot from using user stories and use cases. We found that a well-written user story helps guide our development work by making clear what needs to be done. Use cases are great too. They help us describe how the system should behave, ensuring that everyone in the team is on the same page. This approach improves our communication and makes our work more transparent and efficient. We also realized how crucial it is to keep getting feedback and to adjust our plans based on that feedback. So that, we can make sure our final product can meet our users' needs.
-
-
 ## Use Case Specification
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Use_Case_Specification.png)
 
 
 
-## Design
-### Class diagram
+# Design
+## Class diagram
 
 Regarding the system architecture, before the development process, we initially defined the core elements of the game: birds, pipes, coins, and user interface buttons. During this stage, we formulated the initial version of the class diagram.
 
@@ -191,13 +187,13 @@ As the game development progressed, we needed more classes and functions to incr
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram3_new.png)
 
 
-### Behavioural diagram
+## Behavioural diagram
 
 "Flight Chase" is a game with a straightforward objective: players must navigate through obstacles, such as pipes and eagles while collecting as many coins as possible. Therefore, we made a behavioural diagram so we can have a clearer understanding of the interaction between objects during the development process.
 
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/behaviouralDiagram.png)
 
-### Design Conclusion
+## Design Conclusion
 
 In conclusion, before game development, we applied the software engineering methods learned in the taught component of this module to outline a rough system architecture. This allowed us to develop prototypes, facilitate rapid consensus among all team members on the content and reduce communication time.
 Through adopting the Agile methodology, we iterated through seven versions throughout the development process. Despite this, we set up the initial system architecture at the first stage but new ideas constantly emerged during development. The final class diagram is much more complex than the initial version, and there are also many differences between the original design documents and the final game results. Design documents cannot provide all the details in the development stage as a reference. We had to improve and add the content in design documents while considering the variables and methods needed for the new classes during development.
@@ -334,7 +330,7 @@ We open the archive as a new player and set two tasks:
 
 After the test, we found that the actual results were the same as the expected results and that there were no functional defects or abnormalities.
 
-## Implementation
+# Implementation
 
 Our game is a side-scrolling jumping game, where players control a bird to dodge pipes and eagles flying in from the right side of the screen while collecting coins to score points. In the early stages of development (before version 0.7), our team used graphics drawing methods in Processing to represent various objects. However, starting from version 0.7, we incorporated art and sound assets and refactored the code.
 
@@ -342,16 +338,16 @@ The main classes in our game include Button, Bird, Pipe, Coin, multiple Interfac
 
 Implementing the Bird class posed the greatest challenge, as the bird object needed to perform various functions, including responding to player commands (jumping), interacting correctly with other objects (pipes, coins, eagles), allowing players to change its color and quantity, implementing complex animation effects, and incorporating a health system. The three main challenges encountered were Collision Detection, Bird Transit Through Screen Borders, and Two-Player Mode.
 
-### Challenge 1: Collision Detection.
+## Challenge 1: Collision Detection.
 There are 4 type of entities in the level: the player-controlled bird, pipes, coins, and eagles. Handling the collisions between these is an important part of our game. Initially, I thought to use double dispatch to implement this feature but after writing the collision interface and completing the bird-pipe collision detection methods, I realised this was unnecessary. In reality, only the bird colliding with pipes, coins, and eagles occurs in the game. Using double dispatch would lead to some methods that would never be implemented. Thus, I abandoned double dispatch and simplified collision detection to circle-to-circle collision detection (bird with coins and eagles) and circle-to-rectangle collision detection (bird with pipes). Circle-to-circle collision detection is simple, only requiring checking whether the distance between the centres of the two circles is less than the sum of their radii. However, circle-to-rectangle detection is more complex, first requiring the identification of the closest point on the rectangle to the circle and then determining if the distance from this point to the circle's centre is greater than the radius. This challenge is more of a mathematical challenge, but after spending some time understanding the principles, the coding implementation was straightforward. 
 
-### Challenge 2: Bird Transit Through Screen Borders.
+## Challenge 2: Bird Transit Through Screen Borders.
 In the early versions of the game, the bird could not fly out of the top or fall out of the bottom of the window. Observing other team members experiencing our game, they would keep the bird on the floor for a long time as an easy way to dodge pipes. So, I decided to modify the game mechanics to allow the bird to transition between the top and bottom borders of the screen: when the bird falls off the screen at the bottom, it reappears from the top, and vice versa. Implementing this feature took quite some time. To make the animation look smooth, I ensured that the part of the bird disappearing from one side of the screen and the part appearing on the other were always complementary. After the bird's body completely left the screen, its position would be adjusted to the opposite side of the screen. This required changes not only to the existing method of displaying the bird but also to the collision detection methods (the bird should have collision detection for both parts during transit), and the death animation of the bird (after the bird dies, it should not appear from the top when it falls off the bottom of the screen). After a long time and numerous tests and adjustments, the effect finally met my satisfaction. 
 
-### Challenge 3: Two-Player Mode.
+## Challenge 3: Two-Player Mode.
 The two-player mode is a highlight of our team's game, allowing two players to choose birds of different colours to play together and avoid pipes that match their bird's colour. After completing the single-player mode, we began to implement the two-player mode. The two-player mode implementation is not as simple as adding another bird entity; it accompanies many new features and adjustments to existing code. This includes adjustments to the pipe generation frequency: the highest in single-player mode, followed by the two-player mode with birds of different colours, and finally, the two-player mode with birds of the same colour, as it's necessary to lower the game difficulty if players have the same colour and need to avoid all pipes. Adjustments to the eagle's behaviour are required - in the two-player mode if both players are alive, the eagle will always attempt to lock onto a different player each time. The game's end conditions also need modification; when one player dies, the other should be able to continue playing, among other things. Implementing the two-player mode took us quite some time, and occasionally, new bugs would arise during the implementation process. However, after meticulously adjusting and testing all methods one by one, the two-player mode finally ran smoothly.
 
-## Process
+# Process
 
 
 Our team collaborated effectively throughout the development process. We utilised various tools and methodologies to streamline our workflow and ensure productive teamwork.
@@ -382,7 +378,7 @@ Team Evaluation
 Our collaborative efforts were characterised by open communication, mutual respect, and a shared commitment to project success. Regular team meetings allowed us to discuss progress, address challenges, and brainstorm solutions collaboratively. Each team member brought unique skills and perspectives to the project, contributing to a well-rounded and innovative final product.
 We recognised the importance of adaptability and flexibility in response to evolving project requirements and feedback. Team members were proactive in seeking clarification, providing constructive feedback, and offering support to one another when needed. Our teamwork was instrumental in overcoming challenges, achieving milestones, and delivering a high-quality project.
 
-## Conclusion
+# Conclusion
 
 
 Reflection
