@@ -79,7 +79,7 @@ Success Scenario: Personalised gameplay with customized bird
 Future: Customization options expand with new updates, and achievements (Such as bronze, silver, and gold for high scores) can be attached to the user's bird 
 -->
 
-## Early stages design
+## Early stages design and ideation process
 ### Game Idea 1: Flappy Bird Name: Chameleon Chase 
 In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. 
 The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them.
