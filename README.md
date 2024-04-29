@@ -18,8 +18,18 @@ Chen Lesheng，pp23991@bristol.ac.uk,chenlesheng2000(se2023passok)
 
 ## Introduction
 With this project, we sought to create an engaging, visually pleasing and unique game. To achieve this, we wanted to introduce a twist to an easily recognisable and unique popular mobile platform and provide users with a computer version. We wanted to create a twist on a game we all played and loved growing up, so we decided to choose the frenzy-causing Flappy Bird from 2013. To make our game unique, we decided to add key differences, these include a multiplayer mode, a surprise attacking eagle enemy, coin collection, movable pipes, and customizable birds and backgrounds are just a few of the features that make our game unique and exciting. We worked together to achieve this game by following the agile software development methodology and instilling a strict test-driven and user-tested development ethos throughout our game development. We divided roles, planned tasks and collaborated on the implementation and documentation of features. This report will seek to outline the development process for our game, which we have called "Flight Chase" to illustrate the multiplayer "Chase" element at its core. 
-
+**Main Page**
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/GIF/mainPage.gif)
+**Setting Page - Change Background**
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/GIF/changeBG.gif)
+**Setting Page - Select Modes**
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/GIF/twoPlayers.gif)
+**Normal Mode**
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/GIF/normalMode.gif)
+**Difficult Mode**
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/GIF/difficultMode2.gif)
+**2 Players Mode**
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/GIF/twoPlayers2.gif)
 
 ## Requirements
 
