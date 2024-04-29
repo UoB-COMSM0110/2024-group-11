@@ -117,14 +117,14 @@ Success Scenario: Personalised gameplay with customized bird
 Future: Customization options expand with new updates, and achievements (Such as bronze, silver, and gold for high scores) can be attached to the user's bird 
 -->
 
-# Game ideas:
-## Game Idea 1: Flappy Bird Name: Chameleon Chase 
+## Early stages design
+### Game Idea 1: Flappy Bird Name: Chameleon Chase 
 In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. 
 The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them.
 The second twist is that the pipes move dynamically to trap the bird.
 The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys)
 
-## Game Idea 2: BrickBreaker
+### Game Idea 2: BrickBreaker
 
 In "Pixel Bouncer," the classic brick breaker game takes a twist with a pixelated, retro aesthetic. 
 Players control a bouncing pixel ball to break colourful pixel bricks in a dynamic and evolving environment. 
@@ -133,7 +133,7 @@ The speed and direction are adjustable. Hitting  a CERTAIN moving animal ends th
 There are multiple imitating levels of increasing difficulty and hitting a certain ball can reverse direction, change ball size, and reverse
 gravity. 
 
-## Game Idea 3: NS-Shaft
+### Game Idea 3: NS-Shaft
 
 In the game, a player can control the left and right direction keys to move to the left or right. 
 As the platform continues to rise, the goal is to allow the player to go down the maximum number of floors.
@@ -151,14 +151,14 @@ The game ends when the health points reach zero or the player falls to the botto
 
 
 
-# Paper Protopyes
-## 1. NS-Shaft
+## Paper Protopyes
+### 1. NS-Shaft
 [![](./Images/Prototype1.png)](https://drive.google.com/file/d/1rs3dhTJLfhT_UdmvRboXBJdfwgNGlJ5o/view?usp=sharing)
-## 2.Colourful Flappy Bird
+### 2.Colourful Flappy Bird
 [![](./Images/Prototype2.png)](https://drive.google.com/file/d/1P0VZh37yRYIMSRiT_hydD6VuRLFyvlS6/view?usp=sharing)
 
 
-# Requirements-driven Engineering
+## Requirements-driven Engineering
 
 With user-driven development in mind, we sought to create several user stories to lay out what we believed the game should achieve and what would be expected. We developed a stakeholder model where we split up users into groups and delivered curated user stories to outline the game's needs. We focused primarily on ourselves as game developers and designers, and we came up with several requirements for the final product, including a robust game engine, an efficient debugging tool, an easy-to-use scripting language, a comprehensive multiplayer framework and clear documentation. 
 
