@@ -91,6 +91,7 @@ In the early stages we had various ideas for the game such as Flappy Bird, Brick
 
 After the paper protopyes ended, we unanimously decided to use the idea of Colorful Flappy Bird and initially formulated the rules: In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them. The second twist is that the pipes move dynamically to trap the bird. The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys).
 
+Finally, we wanted the game to be educationally-friendly and help young children get used to using a computer and keyboard so we sought to design an easy-to-play game easily recognisable and fun to play for anyone. Thus we limited the keys to the spacebar and up button to ensure the game is simple and easy to understand. These requirements all helped drive our eventual design of the game and motivated our decision to chose flappy bird as the game to develop a twist on.
 
 # Design
 ## Class diagram
