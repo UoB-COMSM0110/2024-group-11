@@ -19,64 +19,14 @@ Chen Lesheng，pp23991@bristol.ac.uk,chenlesheng2000(se2023passok)
 # Introduction
 With this project, we sought to create an engaging, visually pleasing and unique game. To achieve this, we wanted to introduce a twist to an easily recognisable and unique popular mobile platform and provide users with a computer version. We wanted to create a twist on a game we all played and loved growing up, so we decided to choose the frenzy-causing Flappy Bird from 2013. To make our game unique, we decided to add key differences, these include a multiplayer mode, a surprise attacking eagle enemy, coin collection, movable pipes, and customizable birds and backgrounds are just a few of the features that make our game unique and exciting. We worked together to achieve this game by following the agile software development methodology and instilling a strict test-driven and user-tested development ethos throughout our game development. We divided roles, planned tasks and collaborated on the implementation and documentation of features. This report will seek to outline the development process for our game, which we have called "Flight Chase" to illustrate the multiplayer "Chase" element at its core. 
 
+# Requirements
 
-# Game ideas:
-## Game Idea 1: Flappy Bird Name: Chameleon Chase 
-In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. 
-The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them.
-The second twist is that the pipes move dynamically to trap the bird.
-The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys)
-
-## Game Idea 2: BrickBreaker
-
-In "Pixel Bouncer," the classic brick breaker game takes a twist with a pixelated, retro aesthetic. 
-Players control a bouncing pixel ball to break colourful pixel bricks in a dynamic and evolving environment. 
-The twist comes with various power-ups, challenging obstacles, and a unique bouncing mechanic.
-The speed and direction are adjustable. Hitting  a CERTAIN moving animal ends the game. 
-There are multiple imitating levels of increasing difficulty and hitting a certain ball can reverse direction, change ball size, and reverse
-gravity. 
-
-## Game Idea 3: NS-Shaft
-
-In the game, a player can control the left and right direction keys to move to the left or right. 
-As the platform continues to rise, the goal is to allow the player to go down the maximum number of floors.
-The player has a total of 12 points of health. If contacting the spikes on the ceiling or the spike platform, 
-he will receive negative points of damage. 
-The game ends when the health points reach zero or the player falls to the bottom.
-
-  Twist:
-  Items appear randomly to allow the player to restore health points or change the platform on the field.
-
-  Challenges: 
-  1. Implementing dynamic behaviours for various platforms (ordinary, fake, spring, crawler, spiked) and ensuring precise collision detection.
-  2. Managing the health system and accurately calculating damage from spiked platforms.
-  3. Balancing difficulty across platform types, adjusting spiked platform frequency, and the speed of the rising platform.
+## Use Case Diagram
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/flappy_bird_diagram.png)
 
 
-
-# Paper Protopyes
-## 1. NS-Shaft
-[![](./Images/Prototype1.png)](https://drive.google.com/file/d/1rs3dhTJLfhT_UdmvRboXBJdfwgNGlJ5o/view?usp=sharing)
-## 2.Colourful Flappy Bird
-[![](./Images/Prototype2.png)](https://drive.google.com/file/d/1P0VZh37yRYIMSRiT_hydD6VuRLFyvlS6/view?usp=sharing)
-
-
-# Requirements-driven Engineering
-
-With user-driven development in mind, we sought to create several user stories to lay out what we believed the game should achieve and what would be expected. We developed a stakeholder model where we split up users into groups and delivered curated user stories to outline the game's needs. We focused primarily on ourselves as game developers and designers, and we came up with several requirements for the final product, including a robust game engine, an efficient debugging tool, an easy-to-use scripting language, a comprehensive multiplayer framework and clear documentation. 
-
-Focussing on this further, we created a user story for ourselves as game designers, prioritising the workflow that would enable us to create an effective multiplayer game. Using the stakeholder-planning model for our development model and game, we showed our commitment to the agile software development approach. Central to the game designer user story were the tools and processes that would allow us to create a successful game, we recognised the importance of an intuitive editor to realise efficient debugging, so wrote our game's code using VSCode. We needed a vast library of resources for characters, objects and environments. Through our resources folder in GitHub and the Processing sound and image libraries, we  stored and used our resources. We needed an easy-to-use scripting language, and so the requirement of implementing the game in Processing was conducive to rapid development and yet still allowed us the necessary tools for game development. We agreed on the importance of clear and concise documentation and documenting and detailing codebase changes, so other developers can understand the code and iteratively build upon it. This went hand-in-hand with our requirement for seamless collaboration with the development team which was achieved through regular meetings, a rapid WhatsApp communication channel, a slower email channel, and GitHub documentation. Another interesting feature was the design of the bird and the eagle enemy, through our brainstorming and idea-forming process for the game, we used several AI art tools as inspiration for the game design but elected to create our characters as used in the game. 
-
-We thoroughly explored the user story of our target, a game publisher, choosing this key target to maintain professionalism and personal accountability as expected from a real game development project. A game publisher would require detailed analytics, so we attempted to integrate data collection tools within the game on total games played and the period, though this proved challenging. Nevertheless, we track user attempts and high scores and save game progress regardless of shutdowns/reloads. A game publisher would want a unique code base and organically-developed code so we used tools to ensure no code was copied and all code was developed independently by ourselves as designers. This degree of accountability helped produce a more reliable game and ensured the product's originality. We created the coin collection mechanism of the game as a key feature incentive for users to play the game. While users may find the "Flight Chase" game frustrating, the coin collection mechanism and potential integration with a virtual store is a key user incentive and was later identified in our surveys as a feature users would like to see. A game publisher would see the high engagement potential of users with this game and fund the development of an app or the listing of our game on app stores, a key factor helping guide our approach. In keeping with our commitment to professionalism and accountability, we wanted a transparent and collaborative development approach, so we used paired programming, weekly code reviews (stand-ups) and weekly meetings to ensure each team member contributed and tested the code. Thus, while there was no "game publisher" user, creating such a user story helped promote professionalism and high standards and contributed to our creation of a successful and unique game. 
-
-We developed other user stories to guide our development approach too. We stressed the importance of customizability, allowing users to change the bird's colour, representation and the game background. We wanted users to enjoy and track their progress so we created a high-score tracker that informed users of their achievements. We regularly updated the game following each user test, allowing weekly evaluations from users and allowing them to choose the colours and backgrounds they would like to see next. The continuous release of new birds, player characters, enemy characters, and backgrounds would incentivise players to continue playing our game and offer a unique twist on the original Flappy Bird through customizability. The potential of monetizing certain characters, backgrounds or "game modes" was another incentive for creating this game and its release to real-world platforms. We would have thoroughly focused a marketing campaign on the unique characters and backgrounds as we believe the customizability of this game is as important as the movable pipes, eagle and multiplayer "twists". 
-
-Further developing our user stories, we wanted to focus on quality testers, of which we would often take the role. The testing was split into three categories: white box testing, black box testing and user testing. For white-box testing, we manually wrote test cases for every class after the code was written, ensuring every line of code was tested to prevent bugs and ensure reliability. To develop, we implemented the test-driven development approach and opted to write our test cases before the code itself. This fed the second form of testing, black-box testing where each class within the object-oriented design was tested against several edge cases and expected cases to ensure it would do what it ought to do. Finally, we carried out think-aloud evaluations weekly, even from the earliest development approaches where we documented the results and ensured the game improved with each feature. This commitment to code and game evaluation built into our development process was key to our game's success. 
-
-Taking the community manager's user story and requirements, we wanted our game to be a hub for the computer gaming community. We noticed that while users often talked about their experience of playing the original Flappybird and it was able to achieve viral fame, it lacked the collaborative features necessary for sustained success. Thus, we implemented a multiplayer mode to ensure users could play against their friends and increase the competitive aspect. To maintain community engagement and satisfaction, we integrated testing and evaluation for the multiplayer mode alongside the single-player mode and we ensured every single evaluator of the single-player mode also evaluated the multiplayer though we then documented results separately to guide their separate development. 
-
-Finally, we wanted the game to be educationally-friendly and help young children get used to using a computer and keyboard so we sought to design an easy-to-play game easily recognisable and fun to play for anyone. Thus we limited the keys to the spacebar and up button to ensure the game is simple and easy to understand. These requirements all helped drive our eventual design of the game and motivated our decision to chose flappy bird as the game to develop a twist on. 
-
+## Use Case Specification
+![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Use_Case_Specification.png)
 
 ## Stakeholders and user stories
 1. Game Developers and Designers
@@ -166,12 +116,67 @@ Success Scenario: Personalised gameplay with customized bird
 
 Future: Customization options expand with new updates, and achievements (Such as bronze, silver, and gold for high scores) can be attached to the user's bird 
 -->
-## Use Case Diagram
-![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/flappy_bird_diagram.png)
+
+# Game ideas:
+## Game Idea 1: Flappy Bird Name: Chameleon Chase 
+In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. 
+The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them.
+The second twist is that the pipes move dynamically to trap the bird.
+The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys)
+
+## Game Idea 2: BrickBreaker
+
+In "Pixel Bouncer," the classic brick breaker game takes a twist with a pixelated, retro aesthetic. 
+Players control a bouncing pixel ball to break colourful pixel bricks in a dynamic and evolving environment. 
+The twist comes with various power-ups, challenging obstacles, and a unique bouncing mechanic.
+The speed and direction are adjustable. Hitting  a CERTAIN moving animal ends the game. 
+There are multiple imitating levels of increasing difficulty and hitting a certain ball can reverse direction, change ball size, and reverse
+gravity. 
+
+## Game Idea 3: NS-Shaft
+
+In the game, a player can control the left and right direction keys to move to the left or right. 
+As the platform continues to rise, the goal is to allow the player to go down the maximum number of floors.
+The player has a total of 12 points of health. If contacting the spikes on the ceiling or the spike platform, 
+he will receive negative points of damage. 
+The game ends when the health points reach zero or the player falls to the bottom.
+
+  Twist:
+  Items appear randomly to allow the player to restore health points or change the platform on the field.
+
+  Challenges: 
+  1. Implementing dynamic behaviours for various platforms (ordinary, fake, spring, crawler, spiked) and ensuring precise collision detection.
+  2. Managing the health system and accurately calculating damage from spiked platforms.
+  3. Balancing difficulty across platform types, adjusting spiked platform frequency, and the speed of the rising platform.
 
 
-## Use Case Specification
-![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Use_Case_Specification.png)
+
+# Paper Protopyes
+## 1. NS-Shaft
+[![](./Images/Prototype1.png)](https://drive.google.com/file/d/1rs3dhTJLfhT_UdmvRboXBJdfwgNGlJ5o/view?usp=sharing)
+## 2.Colourful Flappy Bird
+[![](./Images/Prototype2.png)](https://drive.google.com/file/d/1P0VZh37yRYIMSRiT_hydD6VuRLFyvlS6/view?usp=sharing)
+
+
+# Requirements-driven Engineering
+
+With user-driven development in mind, we sought to create several user stories to lay out what we believed the game should achieve and what would be expected. We developed a stakeholder model where we split up users into groups and delivered curated user stories to outline the game's needs. We focused primarily on ourselves as game developers and designers, and we came up with several requirements for the final product, including a robust game engine, an efficient debugging tool, an easy-to-use scripting language, a comprehensive multiplayer framework and clear documentation. 
+
+Focussing on this further, we created a user story for ourselves as game designers, prioritising the workflow that would enable us to create an effective multiplayer game. Using the stakeholder-planning model for our development model and game, we showed our commitment to the agile software development approach. Central to the game designer user story were the tools and processes that would allow us to create a successful game, we recognised the importance of an intuitive editor to realise efficient debugging, so wrote our game's code using VSCode. We needed a vast library of resources for characters, objects and environments. Through our resources folder in GitHub and the Processing sound and image libraries, we  stored and used our resources. We needed an easy-to-use scripting language, and so the requirement of implementing the game in Processing was conducive to rapid development and yet still allowed us the necessary tools for game development. We agreed on the importance of clear and concise documentation and documenting and detailing codebase changes, so other developers can understand the code and iteratively build upon it. This went hand-in-hand with our requirement for seamless collaboration with the development team which was achieved through regular meetings, a rapid WhatsApp communication channel, a slower email channel, and GitHub documentation. Another interesting feature was the design of the bird and the eagle enemy, through our brainstorming and idea-forming process for the game, we used several AI art tools as inspiration for the game design but elected to create our characters as used in the game. 
+
+We thoroughly explored the user story of our target, a game publisher, choosing this key target to maintain professionalism and personal accountability as expected from a real game development project. A game publisher would require detailed analytics, so we attempted to integrate data collection tools within the game on total games played and the period, though this proved challenging. Nevertheless, we track user attempts and high scores and save game progress regardless of shutdowns/reloads. A game publisher would want a unique code base and organically-developed code so we used tools to ensure no code was copied and all code was developed independently by ourselves as designers. This degree of accountability helped produce a more reliable game and ensured the product's originality. We created the coin collection mechanism of the game as a key feature incentive for users to play the game. While users may find the "Flight Chase" game frustrating, the coin collection mechanism and potential integration with a virtual store is a key user incentive and was later identified in our surveys as a feature users would like to see. A game publisher would see the high engagement potential of users with this game and fund the development of an app or the listing of our game on app stores, a key factor helping guide our approach. In keeping with our commitment to professionalism and accountability, we wanted a transparent and collaborative development approach, so we used paired programming, weekly code reviews (stand-ups) and weekly meetings to ensure each team member contributed and tested the code. Thus, while there was no "game publisher" user, creating such a user story helped promote professionalism and high standards and contributed to our creation of a successful and unique game. 
+
+We developed other user stories to guide our development approach too. We stressed the importance of customizability, allowing users to change the bird's colour, representation and the game background. We wanted users to enjoy and track their progress so we created a high-score tracker that informed users of their achievements. We regularly updated the game following each user test, allowing weekly evaluations from users and allowing them to choose the colours and backgrounds they would like to see next. The continuous release of new birds, player characters, enemy characters, and backgrounds would incentivise players to continue playing our game and offer a unique twist on the original Flappy Bird through customizability. The potential of monetizing certain characters, backgrounds or "game modes" was another incentive for creating this game and its release to real-world platforms. We would have thoroughly focused a marketing campaign on the unique characters and backgrounds as we believe the customizability of this game is as important as the movable pipes, eagle and multiplayer "twists". 
+
+Further developing our user stories, we wanted to focus on quality testers, of which we would often take the role. The testing was split into three categories: white box testing, black box testing and user testing. For white-box testing, we manually wrote test cases for every class after the code was written, ensuring every line of code was tested to prevent bugs and ensure reliability. To develop, we implemented the test-driven development approach and opted to write our test cases before the code itself. This fed the second form of testing, black-box testing where each class within the object-oriented design was tested against several edge cases and expected cases to ensure it would do what it ought to do. Finally, we carried out think-aloud evaluations weekly, even from the earliest development approaches where we documented the results and ensured the game improved with each feature. This commitment to code and game evaluation built into our development process was key to our game's success. 
+
+Taking the community manager's user story and requirements, we wanted our game to be a hub for the computer gaming community. We noticed that while users often talked about their experience of playing the original Flappybird and it was able to achieve viral fame, it lacked the collaborative features necessary for sustained success. Thus, we implemented a multiplayer mode to ensure users could play against their friends and increase the competitive aspect. To maintain community engagement and satisfaction, we integrated testing and evaluation for the multiplayer mode alongside the single-player mode and we ensured every single evaluator of the single-player mode also evaluated the multiplayer though we then documented results separately to guide their separate development. 
+
+Finally, we wanted the game to be educationally-friendly and help young children get used to using a computer and keyboard so we sought to design an easy-to-play game easily recognisable and fun to play for anyone. Thus we limited the keys to the spacebar and up button to ensure the game is simple and easy to understand. These requirements all helped drive our eventual design of the game and motivated our decision to chose flappy bird as the game to develop a twist on. 
+
+
+
+
 
 
 
