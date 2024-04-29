@@ -81,7 +81,7 @@ Future: Customization options expand with new updates, and achievements (Such as
 
 ## Early stages design and ideation process
 
-In the early stages we had various ideas for the game such as Flappy Bird, BrickBreaker and NS-Shaft. After a group discussion, we decided to implement Paper Protopyes on the two ideas with the highest support.
+In the early stages we had various ideas for the game such as Flappy Bird, BrickBreaker and NS-Shaft. After a group discussion, we decided to implement paper protopyes on the two ideas with the highest support.
 
 ### Paper Protopyes
 #### 1. NS-Shaft
@@ -89,7 +89,7 @@ In the early stages we had various ideas for the game such as Flappy Bird, Brick
 #### 2.Colourful Flappy Bird
 [![](./Images/Prototype2.png)](https://drive.google.com/file/d/1P0VZh37yRYIMSRiT_hydD6VuRLFyvlS6/view?usp=sharing)
 
-
+After the paper protopyes ended, we unanimously decided to use the idea of Colorful Flappy Bird and initially formulated the rules: In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them. The second twist is that the pipes move dynamically to trap the bird. The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys).
 
 
 # Design
