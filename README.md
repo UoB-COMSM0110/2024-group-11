@@ -316,3 +316,14 @@ The project was not without technical challenges, as our vision for a multi-play
 
 To improve the game further and continue development, we have compelling ideas. We have discussed additional elements such as newer levels, 3-dimensional gameplay, multi-player modes via internet connectivity, and customisable “suits” or emojis to replace birds - with a user-led character store to purchase new “suits”/characters - purchasable with game tokens. These ideas would all require user and stakeholder feedback, prompt planning, evaluation and testing and a robust plan to carry out a new round of agile development. However, with the skills learnt from this project, and a greater influence on robust documentation and daily communication, we believe we are up to this new and exciting task. We hope you enjoy playing our game and look forward to developing it further following feedback, aiming for the perfect user experience. 
 
+## Individual contribution:
+
+Qiyuan Chen:
+
+Ahmed El Ashry:
+
+Jialun He:
+
+Ching-Chun Juan:
+
+Chen Lesheng:
