@@ -24,66 +24,21 @@ With this project, we sought to create an engaging, visually pleasing and unique
 ## Use Case Diagram
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/flappy_bird_diagram.png)
 
-
 ## Use Case Specification
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/Use_Case_Specification.png)
 
-## Stakeholders and user stories
+## Developers and users stories
 1. Game Developers and Designers
-- I want a robust game engine that supports both 2D and 3D graphics, allowing for flexible and visually stunning gameplay
-- I want an efficient debugging tool that provides real-time insights into the game's performance, helping me identify and fix issues quickly
-- I want an easy-to-use scripting language that allows rapid prototyping and iteration of game mechanics, enhancing the development workflow
-- I want a comprehensive multilayer framework that supports various modes (co-op, competitive) and provides tools for seamless online integration
-- I want documentation that is clear, concise, and regularly updated, enabling me to understand and implement new features without unnecessary delays
+- As a developers, I want a robust game engine that supports both 2D and 3D graphics, allowing for flexible and visually stunning gameplay
+- As a developers, I want an efficient debugging tool that provides real-time insights into the game's performance, helping me identify and fix issues quickly
+- As a developers, I want an easy-to-use scripting language that allows rapid prototyping and iteration of game mechanics, enhancing the development workflow
+- As a developers, I want a comprehensive multilayer framework that supports various modes (co-op, competitive) and provides tools for seamless online integration
+- As a developers, I want documentation that is clear, concise, and regularly updated, enabling me to understand and implement new features without unnecessary delays
 
-Game Designers User Story
-- I want an intuitive level editor that allows me to create diverse and engaging game environments with ease, allowing me to realise my creative visions
-- I want access to a vast library of assets - incl. characters, objects and environments, to enhance the visual appeal of the game without compromising the
-performance
-- I want a flexible AI system that allows me to create challenging and dynamic enemy behaviours, contributing to an immersive and enjoyable player experience
-- I want analytics tools that provide valuable player data, allowing me to make informed decisions about game balance, difficulty and feature improvement
-- I want collaboration features that enable seamless communication with the development team, ensuring a smooth integration of design elements into the final
-project
-2. Game Publisher User Story
-- I want a detailed, customizable analytics dashboard that provides info on player engagement, retention, and monetization, supporting data-driven decision
-making
-- I want a reliable and secure solution to protect IP while minimizing impact on player experience
-- I want marketing tools integrated into the game platform, allowing for targeted promotions, advertisements, and community engagement to boost game visibility
-and sales
-- I want seamless integration with popular gaming platforms and storefronts, simplifying the distribution process and maximising the game's reach
-- I want a transparent and collaborative relationship with the development team, including regular progress updates and open communication channels 
-
-3. Players (End Users)
+2. Players (End Users)
 - As a player, I want the game to have the feature of saving the current progress so that I can restore the status after shutting down the game.
-
-4. Investors and Financiers
-- As an investor and financier, I want to experience constant updates and new content to ensure the game remains fresh, attracts new players, and retains old players.
-
-5. Platform Providers
-  Through platform providers, users can easily play this game on the platform, and the game possesses payment systems, achievements, and community interaction functionalities, 
-allowing users to have a seamless gaming experience and added value services. At the same time, the platform's security and privacy policies can protect user information safety 
-and interests.
-
-6. Marketing and PR teams
-  Through the efforts of marketing and PR team members, users are more easily attracted by the visual and narrative elements of the game, and extensive publicity and promotion 
-provide users with more ways to learn about the game. Additionally, if users provide sufficient feedback, members of the marketing and PR teams can measure the effectiveness 
-of marketing campaigns, optimize future marketing strategies, and better communicate with the media and players.
-
-7. Quality Assurance Testers
-- I want the game development team to provide comprehensive test plans and test cases to ensure the stability, performance and user experience of the game is optimal.
-- I want to be able to use professional testing tools and automated test scripts to discover and report problems promptly.
-- I want the development team to respond to test feedback, fix discovered defects promptly and provide detailed test reports and records to track and verify problem resolution.
-
-8. Community Managers
-- I want to build and maintain an active game community and promote communication, interaction and cooperation among players.
-- I want to work closely with the development team to understand player needs and feedback and adjust game content and features to maintain community activity and user satisfaction.
-
-9. Legal Advisors
-- I want the game development team to comply with relevant laws and regulations, including intellectual property, user privacy, consumer rights, etc.
-- I want to maintain close communication with the game development team, resolve disputes and disputes involving legal issues promptly and ensure the legality and stability of the game.
-
-10. Educational Institutions 
-- I want the game development team to provide an educational version or educational mode to support teaching and learning activities.
+- As a player, I want the game to be challenging.
+- As a player, I want the game have a multiplayer mode to play with friends.
 
 <!-- 
 ## Worked Through Use Case Specification
