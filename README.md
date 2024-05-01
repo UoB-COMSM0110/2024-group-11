@@ -50,11 +50,11 @@ With this project, we sought to create an engaging, visually pleasing and unique
 
 ### Developers and users stories
 1. Game Developers and Designers
-- As a developer, I want a robust game engine that supports both 2D and 3D graphics, allowing for flexible and visually stunning gameplay.
+- As a developer, I want a robust game engine that supports 2D and 3D graphics, allowing for flexible and visually stunning gameplay.
 - As a developer, I want an efficient debugging tool that provides real-time insights into the game's performance, helping me identify and fix issues quickly.
 - As a developer, I want an easy-to-use scripting language that allows rapid prototyping and iteration of game mechanics, enhancing the development workflow.
 - As a developer, I want a comprehensive multilayer framework that supports various modes (co-op, competitive) and provides tools for seamless online integration.
-- As a developer, I want documentation that is clear, concise, and regularly updated, enabling me to understand and implement new features without unnecessary delays.
+- As a developer, I want clear, concise, and regularly updated documentation, enabling me to understand and implement new features without unnecessary delays.
 
 2. Players (End Users)
 - As a player, I want the game to have the feature of saving the current progress so that I can restore the status after shutting down the game.
@@ -100,7 +100,7 @@ Success Scenario: Personalised gameplay with customized bird
 Future: Customization options expand with new updates, and achievements (Such as bronze, silver, and gold for high scores) can be attached to the user's bird 
 -->
 
-### Early stage Design and ideation process
+### Early-stage Design and ideation process
 
 In the early stages, we had various ideas for the game such as Flappy Bird, BrickBreaker and NS-Shaft. After a group discussion, we decided to implement paper protopyes on the two ideas with the highest support.
 
@@ -150,18 +150,11 @@ We have set up two tasks for Think Aloud:
 
 In the process of completing the task, we take into account the user's behaviour and language. We invited 5 users to conduct this test and compiled the results of 3 more representative users.
 
-Think Aloud 1:
-Advantages: The game rules are simple and easy to understand. Also, it is easy to use and different objects have clear identification.
-Disadvantages: People can't find the keyboard keys required for the game and don't know how to change some settings.
-
-Think Aloud 2:
-Advantages: Most people have experience in the same type of games and can understand and complete tasks well.
-Disadvantages: People don’t know the function of elements different from traditional games, such as yellow dots that increase points.
-
-Think Aloud 3:
-Advantages: It can simulate gravity to make it fall and people can see your current score and life.
-Disadvantages: People will not die when they hit bottom or top, which reduces the difficulty and playability of the game.
-
+| Think Aloud      | Advantages                                                  | Disadvantages                                                                                                                                                                 |
+|------------------|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Think Aloud 1    | - Simple and easy-to-understand game rules                 | - Difficulty finding keyboard keys required for the game<br>- Lack of clarity on changing some settings                                                                       |
+| Think Aloud 2    | - Familiarity with similar games aids understanding        | - Lack of understanding regarding the function of non-traditional game elements, such as yellow dots that increase points                                                     |
+| Think Aloud 3    | - Gravity simulation enhances realism                      | - Lack of consequence for hitting bottom or top reduces game difficulty and playability                                                                                       |
 #### Heuristic Evaluation
 | Interface                 | Issue                                                        | Heuristic(s)            | Frequency 0 (rare) to 4 (common) | Impact 0 (easy) to 4 (difficult) | Persistence 0 (once) to 4 (repeated) | Severity = Sum Total of (F+I+P)/3 |
 |---------------------------|--------------------------------------------------------------|-------------------------|----------------------------------|-----------------------------------|-------------------------------------|------------------------------------|
