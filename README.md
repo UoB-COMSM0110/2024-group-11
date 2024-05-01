@@ -298,17 +298,21 @@ Our team collaborated effectively throughout the development process. We utilise
 
 We primarily used WhatsApp messaging for communication, having a running group chat to share updates, ask questions and issue reminders in real time. This allowed us to maintain an agile approach, and quickly change tac if things weren’t working. Creating polls for meetings, decision-making and design choices allowed a democratic and team-centred approach when creating the game. Additionally, we often communicated using our Git messages, through commits and pull requests, allowing team members to stay up-to-date with each other’s changes.
 
-<img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/whatsApp1.png" alt="image" width="500">
-<img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/whatsApp2.png" alt="image" width="500">
+<img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/whatsApp1.png" alt="image" width="450">
+<img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/whatsApp2.png" alt="image" width="450">
 
 
 ### Project Management
 
 In addition to effective messaging to ensure tasks were carried out and deadlines were met, we utilised a shared KanBan board to ensure all tasks were carried out. This enabled team members to implement features directly, even if they had missed meetings where discussions on the next steps took place. Alongside this, we used the existing communication channel in WhatsApp to assign responsibilities, track progress and prioritise tasks effectively. Team members were then given individual freedom to use certain task management tools independently to ensure tasks were carried out, with some opting for Notion and others for Trello. This allowed autonomy within the development process. 
 
+<img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/kanban.png" alt="image" width="500">
+
 ### Version Control
 
 For code collaboration and version control, we relied on Git’s Version Control. We wrote code using the VSCode IDE before uploading it to Git. When needing to collaborate, users could pull/push code as required with separate branches for each member’s testing and features and another develop branch for incremental changes, before they would be continuously merged into the main branch. This ensured everyone had access to the latest codebase and could contribute seamlessly. We frequently implemented pair programming or discussion of features in-labs, with subsequent implementation to ensure collaboration and minimise errors. 
+
+<img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/updateLog.png" alt="image" width="500">
 
 ### Documentation
 
