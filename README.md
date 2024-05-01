@@ -341,12 +341,12 @@ To improve the game further and continue development, we have compelling ideas. 
 
 ## Individual contribution:
 
-Qiyuan Chen:
+Qiyuan Chen: 1
 
-Ahmed El Ashry:
+Ahmed El Ashry: 1
 
-Jialun He:
+Jialun He: 1.5
 
-Ching-Chun Juan:
+Ching-Chun Juan: 1
 
-Chen Lesheng:
+Chen Lesheng: 0.5
