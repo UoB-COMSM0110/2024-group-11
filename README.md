@@ -270,7 +270,7 @@ The main classes in our game include `Button`, `Bird`, `Pipe`, `Coin`, multiple 
 
 Implementing the `Bird` class posed the greatest challenge, as the bird object needed to perform various functions, including responding to player commands (jumping), interacting correctly with other objects (pipes, coins, eagles), allowing players to change its colour and quantity, implementing complex animation effects, and incorporating a health system. The three main challenges encountered were Collision Detection, Bird Transit Through Screen Borders, and Two-Player Mode.
 
-### Challenge 1: Collision Detection.
+### Challenge 1: Collision Detection. `Collision Class`
 There are 4 types of entities: the player-controlled bird, pipes, coins, and eagles. Handling the collisions between these is an important part of our game. We wrote two methods: circle-to-circle collision detection (bird with coins and eagles) and circle-to-rectangle collision detection (bird with pipes). Circle-to-circle collision detection is simple, only requiring checking whether the distance between the centres of the two circles is less than the sum of their radii. Circle-to-rectangle detection is more complex, first requiring the identification of the closest point on the rectangle to the circle and then determining if the distance from this point to the circle's centre is greater than the radius. This challenge is more mathematical, but the coding implementation was straightforward after understanding the principles.
 
 ### Challenge 2: Bird Transit Through Screen Borders.
@@ -289,7 +289,7 @@ We primarily used WhatsApp messaging for communication, having a running group c
 
 ### Project Management
 
-In addition to effective messaging to ensure tasks were carried out and deadlines were met, we utilised a shared KanBaan board to ensure all tasks were carried out. This enabled team members to implement features directly, even if they had missed meetings where discussions on the next steps took place. Alongside this, we used the existing communication channel in WhatsApp to assign responsibilities, track progress and prioritise tasks effectively. Team members were then given individual freedom to use certain task management tools independently to ensure tasks were carried out, with some opting for Notion and others for Trello. This allowed autonomy within the development process. 
+In addition to effective messaging to ensure tasks were carried out and deadlines were met, we utilised a shared KanBan board to ensure all tasks were carried out. This enabled team members to implement features directly, even if they had missed meetings where discussions on the next steps took place. Alongside this, we used the existing communication channel in WhatsApp to assign responsibilities, track progress and prioritise tasks effectively. Team members were then given individual freedom to use certain task management tools independently to ensure tasks were carried out, with some opting for Notion and others for Trello. This allowed autonomy within the development process. 
 
 ### Version Control
 
@@ -303,7 +303,12 @@ Maintaining comprehensive documentation was crucial for clarity and knowledge sh
 
 We assigned roles from the beginning of the project, which ensured clarity in responsibilities and accountability, facilitating a smooth development process. Project management was completed rotationally, with Jialun taking the lead for the code, Quiyuan for sound and library integration, Alice for design, and Ahmed for the report. Splitting up the project into smaller manageable tasks increased focus and efficiency. This also allowed team members with more expertise in one area to guide others onto the correct path. Correspondingly, members were able to contribute more in different fields. 
 
-Jialun led the coding and code development process and the team responsible for code implementation and execution, while also helping out in design and animations. Qiyuan worked closely with Jialun on development and execution and implemented sound for the project alongside researching, implementing and utilising resources and libraries. Alice was responsible for the design interface, coding the main menu, buttons and pipes, alongside general gameplay design and class design. Ahmed was responsible for project planning and design as well as testing (both internal and external), creating focus groups, and carrying out evaluations as well as unit testing and code tests. Chen was responsible for the development and helped implement difficulty levels, accelerate bird/pipe movements and control gameplay physics. 
+- Jialun led the coding and code development process and the team responsible for code implementation and execution, while also helping out in design and animations.
+- Qiyuan worked closely with Jialun on development and execution and implemented sound for the project alongside researching, implementing, and utilizing resources and libraries.
+- Alice was responsible for the design interface, coding the main menu, buttons, and pipes, alongside general gameplay design, and class design.
+- Ahmed was responsible for project planning and design as well as testing (both internal and external), creating focus groups, and carrying out evaluations as well as unit testing and code tests.
+- Chen was responsible for the development and helped implement difficulty levels, accelerate bird/pipe movements, and control gameplay physics.
+
 
 ### Team Evaluation
 
