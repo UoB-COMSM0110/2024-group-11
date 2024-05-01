@@ -17,6 +17,7 @@ Chen Lesheng，pp23991@bristol.ac.uk,chenlesheng2000(se2023passok)
 
 ### Group Photo
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/assets/69910719/2221f7df-e9b5-4e8e-b8aa-bd7b3e7a9eb7)
+*Group photo of our MSc Software Engineering group at the University of Bristol*
 
 ## Introduction
 With this project, we sought to create an engaging, visually pleasing and unique game. To achieve this, we wanted to introduce a twist to an easily recognisable and unique popular mobile platform and provide users with a computer version. We wanted to create a twist on a game we all played and loved growing up, so we decided to choose the frenzy-causing Flappy Bird from 2013. To make our game unique, we decided to add key differences, these include a multiplayer mode, a surprise attacking eagle enemy, coin collection, movable pipes, and customizable birds and backgrounds are just a few of the features that make our game unique and exciting. We worked together to achieve this game by following the agile software development methodology and instilling a strict test-driven and user-tested development ethos throughout our game development. We divided roles, planned tasks and collaborated on the implementation and documentation of features. This report will seek to outline the development process for our game, which we have called "Flight Chase" to illustrate the multiplayer "Chase" element at its core. 
@@ -120,10 +121,12 @@ Finally, we wanted the game to be educationally friendly and help young children
 Regarding the system architecture, before the development process, we initially defined the core elements of the game: birds, pipes, coins, and user interface buttons. During this stage, we formulated the initial version of the class diagram.
 
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram1.png)
+*Initial version of the class diagram*
 
 As the game development progressed, we needed more classes and functions to increase the richness of the game, make the code tidier and enhance readability. Throughout this process, we iterated through seven versions, and by the final version, the class diagram has developed into the following architecture. Besides the core elements, we also added a class of the eagle as the twist to the game, to increase the difficulty, giving players surprises. Also, we transformed the main game screens: Main Menu, Settings Menu, Level (Playing screen), and GameOverMenu into classes to facilitate independent development.
 
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/classDiagram3_new.png)
+*Final version of the class diagram*
 
 
 ### Behavioural diagram
@@ -131,6 +134,7 @@ As the game development progressed, we needed more classes and functions to incr
 "Flight Chase" is a game with a straightforward objective: players must navigate through obstacles, such as pipes and eagles while collecting as many coins as possible. Therefore, we made a communication diagram so we could have a clearer understanding of the interaction between objects during the development process.
 
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/behaviouralDiagram.png)
+*Communication diagram depicting the interaction between game objects*
 
 ### Design Conclusion
 
