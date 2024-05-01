@@ -313,7 +313,7 @@ In addition to effective messaging to ensure tasks were carried out and deadline
 
 For code collaboration and version control, we relied on Git’s Version Control. We wrote code using the VSCode IDE before uploading it to Git. When needing to collaborate, users could pull/push code as required with separate branches for each member’s testing and features and another develop branch for incremental changes, before they would be continuously merged into the main branch. This ensured everyone had access to the latest codebase and could contribute seamlessly. We frequently implemented pair programming or discussion of features in-labs, with subsequent implementation to ensure collaboration and minimise errors. 
 
-<img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/updateLog.png" alt="image" width="500">
+<img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/updateLog.png" alt="image" width="900">
 
 ### Documentation
 
