@@ -365,6 +365,6 @@ Ahmed El Ashry: 1
 
 Jialun He: 1.5
 
-Ching-Chun Juan: 1
+Ching-Chun Juan(Alice): 1
 
 Chen Lesheng: 0.5
