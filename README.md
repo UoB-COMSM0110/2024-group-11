@@ -147,6 +147,24 @@ Through adopting the Agile methodology, we iterated through seven versions throu
 However, it is undeniable that a clear system architecture is essential for the development process. It is the game's backbone and provides the foundation for other design elements.
 
 
+## Implementation
+
+Our game is a side-scrolling jumping game, where players control a bird to dodge pipes and eagles flying in from the right side of the screen while collecting coins to score points. In the early stages of development (before version 0.7), our team used graphics drawing methods in Processing to represent various objects. However, starting from version 0.7, we incorporated art and sound assets and refactored the code.
+
+The main classes in our game include `Button`, `Bird`, `Pipe`, `Coin`, multiple Interface classes (`Main Menu`, `Settings Menu`, `Level`, and `Game Over Menu`), and `Eagle`. Most of these classes have relatively simple functionalities. The `Button` class primarily handles modifying other objects, such as changing the bird's colour or the current menu after mouse clicks. Interface classes manage and present the user interface (UI). The `Coin` and `Pipe` classes generate randomly at certain positions in the game and move leftward periodically. The `Eagle` class rapidly moves from one position toward the bird's location and detects collisions.
+
+Implementing the `Bird` class posed the greatest challenge, as the bird object needed to perform various functions, including responding to player commands (jumping), interacting correctly with other objects (pipes, coins, eagles), allowing players to change its colour and quantity, implementing complex animation effects, and incorporating a health system. The three main challenges encountered were Collision Detection, Bird Transit Through Screen Borders, and Two-Player Mode.
+
+### Challenge 1: Collision Detection. `Collision Class`
+There are 4 types of entities: the player-controlled bird, pipes, coins, and eagles. Handling the collisions between these is an important part of our game. We wrote two methods: circle-to-circle collision detection (bird with coins and eagles) and circle-to-rectangle collision detection (bird with pipes). Circle-to-circle collision detection is simple, only requiring checking whether the distance between the centres of the two circles is less than the sum of their radii. Circle-to-rectangle detection is more complex, first requiring the identification of the closest point on the rectangle to the circle and then determining if the distance from this point to the circle's centre is greater than the radius. This challenge is more mathematical, but the coding implementation was straightforward after understanding the principles.
+
+### Challenge 2: Bird Transit Through Screen Borders.
+In the early versions of the game, the bird could not fly out of the screen. So players could keep the bird on the floor for a long time without any action as an easy way to dodge pipes. Therefore, we decided to modify the game mechanics to allow the bird to transition between the top and bottom borders of the screen. Implementing this feature took quite some time. To make the animation look smooth, we ensured that the part of the bird disappearing from one side of the screen and the part appearing on the other were always complementary. After the bird's body completely left the screen, its position would be adjusted to the opposite side of the screen. This required changes not only to the existing method of displaying the bird but also to the collision detection methods (the bird should have collision detection for both parts during transit), and the death animation of the bird (after the bird dies, it should not appear from the top when it falls off the bottom of the screen). After a long time and numerous tests and adjustments, the effect finally met our satisfaction.
+
+### Challenge 3: Two-Player Mode.
+The two-player mode is a highlight of our team's game, allowing two players to choose birds of different colours to play together and avoid pipes that match their bird's colour. The two-player mode implementation is not as simple as adding another bird object based on single-player mode; it accompanies many new features and adjustments to existing code. This includes adjustments to the pipe generation frequency as it's necessary to lower the game difficulty if players have the same colour and avoid all pipes. Adjustments to the eagle's behaviour are required - in the two-player mode if both players are alive, the eagle will always attempt to lock onto a different player each time. The game's end conditions also need modification; when one player dies, the other should be able to continue playing, among other things. Implementing the two-player mode took us quite some time, and occasionally, new bugs would arise during the implementation process.
+
+
 ## Evaluation
 
 ### Qualitative Evaluation
@@ -270,24 +288,6 @@ We open the archive as a new player and set two tasks:
 2. Highest score record: Whether the highest score scored by a player will be recorded.
 
 After the test, we found that the actual results were the same as the expected results and no functional defects or abnormalities were detected.
-
-
-## Implementation
-
-Our game is a side-scrolling jumping game, where players control a bird to dodge pipes and eagles flying in from the right side of the screen while collecting coins to score points. In the early stages of development (before version 0.7), our team used graphics drawing methods in Processing to represent various objects. However, starting from version 0.7, we incorporated art and sound assets and refactored the code.
-
-The main classes in our game include `Button`, `Bird`, `Pipe`, `Coin`, multiple Interface classes (`Main Menu`, `Settings Menu`, `Level`, and `Game Over Menu`), and `Eagle`. Most of these classes have relatively simple functionalities. The `Button` class primarily handles modifying other objects, such as changing the bird's colour or the current menu after mouse clicks. Interface classes manage and present the user interface (UI). The `Coin` and `Pipe` classes generate randomly at certain positions in the game and move leftward periodically. The `Eagle` class rapidly moves from one position toward the bird's location and detects collisions.
-
-Implementing the `Bird` class posed the greatest challenge, as the bird object needed to perform various functions, including responding to player commands (jumping), interacting correctly with other objects (pipes, coins, eagles), allowing players to change its colour and quantity, implementing complex animation effects, and incorporating a health system. The three main challenges encountered were Collision Detection, Bird Transit Through Screen Borders, and Two-Player Mode.
-
-### Challenge 1: Collision Detection. `Collision Class`
-There are 4 types of entities: the player-controlled bird, pipes, coins, and eagles. Handling the collisions between these is an important part of our game. We wrote two methods: circle-to-circle collision detection (bird with coins and eagles) and circle-to-rectangle collision detection (bird with pipes). Circle-to-circle collision detection is simple, only requiring checking whether the distance between the centres of the two circles is less than the sum of their radii. Circle-to-rectangle detection is more complex, first requiring the identification of the closest point on the rectangle to the circle and then determining if the distance from this point to the circle's centre is greater than the radius. This challenge is more mathematical, but the coding implementation was straightforward after understanding the principles.
-
-### Challenge 2: Bird Transit Through Screen Borders.
-In the early versions of the game, the bird could not fly out of the screen. So players could keep the bird on the floor for a long time without any action as an easy way to dodge pipes. Therefore, we decided to modify the game mechanics to allow the bird to transition between the top and bottom borders of the screen. Implementing this feature took quite some time. To make the animation look smooth, we ensured that the part of the bird disappearing from one side of the screen and the part appearing on the other were always complementary. After the bird's body completely left the screen, its position would be adjusted to the opposite side of the screen. This required changes not only to the existing method of displaying the bird but also to the collision detection methods (the bird should have collision detection for both parts during transit), and the death animation of the bird (after the bird dies, it should not appear from the top when it falls off the bottom of the screen). After a long time and numerous tests and adjustments, the effect finally met our satisfaction.
-
-### Challenge 3: Two-Player Mode.
-The two-player mode is a highlight of our team's game, allowing two players to choose birds of different colours to play together and avoid pipes that match their bird's colour. The two-player mode implementation is not as simple as adding another bird object based on single-player mode; it accompanies many new features and adjustments to existing code. This includes adjustments to the pipe generation frequency as it's necessary to lower the game difficulty if players have the same colour and avoid all pipes. Adjustments to the eagle's behaviour are required - in the two-player mode if both players are alive, the eagle will always attempt to lock onto a different player each time. The game's end conditions also need modification; when one player dies, the other should be able to continue playing, among other things. Implementing the two-player mode took us quite some time, and occasionally, new bugs would arise during the implementation process.
 
 
 ## Process
