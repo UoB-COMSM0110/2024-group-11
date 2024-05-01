@@ -50,16 +50,16 @@ With this project, we sought to create an engaging, visually pleasing and unique
 
 ### Developers and users stories
 1. Game Developers and Designers
-- As a developers, I want a robust game engine that supports both 2D and 3D graphics, allowing for flexible and visually stunning gameplay
-- As a developers, I want an efficient debugging tool that provides real-time insights into the game's performance, helping me identify and fix issues quickly
-- As a developers, I want an easy-to-use scripting language that allows rapid prototyping and iteration of game mechanics, enhancing the development workflow
-- As a developers, I want a comprehensive multilayer framework that supports various modes (co-op, competitive) and provides tools for seamless online integration
-- As a developers, I want documentation that is clear, concise, and regularly updated, enabling me to understand and implement new features without unnecessary delays
+- As a developer, I want a robust game engine that supports both 2D and 3D graphics, allowing for flexible and visually stunning gameplay.
+- As a developer, I want an efficient debugging tool that provides real-time insights into the game's performance, helping me identify and fix issues quickly.
+- As a developer, I want an easy-to-use scripting language that allows rapid prototyping and iteration of game mechanics, enhancing the development workflow.
+- As a developer, I want a comprehensive multilayer framework that supports various modes (co-op, competitive) and provides tools for seamless online integration.
+- As a developer, I want documentation that is clear, concise, and regularly updated, enabling me to understand and implement new features without unnecessary delays.
 
 2. Players (End Users)
 - As a player, I want the game to have the feature of saving the current progress so that I can restore the status after shutting down the game.
 - As a player, I want the game to be challenging.
-- As a player, I want the game have a multiplayer mode to play with friends.
+- As a player, I want the game to have a multiplayer mode to play with friends.
 
 
 With user-driven development in mind, we sought to create several user stories to lay out what we believed the game should achieve and what would be expected. We developed a stakeholder model where we split up users into groups and delivered curated user stories to outline the game's needs. We focused primarily on ourselves as game developers and designers, and we came up with several requirements for the final product, including a robust game engine, an efficient debugging tool, an easy-to-use scripting language, a comprehensive multiplayer framework and clear documentation. 
@@ -72,7 +72,7 @@ We developed other user stories to guide our development approach too. We stress
 ## Worked Through Use Case Specification
 Player/Gamer
 
-User Story: I want to customize my bird's appearance in the chameleon chase
+User Story: I want to customize my bird's appearance in the chameleon chase.
 
 Customizing the Bird's Appearance
 
@@ -100,19 +100,19 @@ Success Scenario: Personalised gameplay with customized bird
 Future: Customization options expand with new updates, and achievements (Such as bronze, silver, and gold for high scores) can be attached to the user's bird 
 -->
 
-### Early stages design and ideation process
+### Early stage Design and ideation process
 
-In the early stages we had various ideas for the game such as Flappy Bird, BrickBreaker and NS-Shaft. After a group discussion, we decided to implement paper protopyes on the two ideas with the highest support.
+In the early stages, we had various ideas for the game such as Flappy Bird, BrickBreaker and NS-Shaft. After a group discussion, we decided to implement paper protopyes on the two ideas with the highest support.
 
-#### Paper Protopyes
+#### Paper Prototypes
 ##### 1. NS-Shaft
 [![](./Images/Prototype1.png)](https://drive.google.com/file/d/1rs3dhTJLfhT_UdmvRboXBJdfwgNGlJ5o/view?usp=sharing)
 ##### 2.Colourful Flappy Bird
 [![](./Images/Prototype2.png)](https://drive.google.com/file/d/1P0VZh37yRYIMSRiT_hydD6VuRLFyvlS6/view?usp=sharing)
 
-After the paper protopyes ended, we unanimously decided to use the idea of Colorful Flappy Bird and initially formulated the rules: In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them. The second twist is that the pipes move dynamically to trap the bird. The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys).
+After the paper prototypes ended, we unanimously decided to use the idea of Colorful Flappy Bird and formulate the rules: In this version of Flappy Bird, the pipes and the bird are dynamically changing colours. The twist is that the player must control the bird to match its colour with the upcoming pipes to pass through them. The second twist is that the pipes move dynamically to trap the bird. The third twist is that there are two players and the two players each control a racing bird (whose speed can be adjusted by the arrow keys).
 
-Finally, we wanted the game to be educationally-friendly and help young children get used to using a computer and keyboard so we sought to design an easy-to-play game easily recognisable and fun to play for anyone. Thus we limited the keys to the spacebar and up button to ensure the game is simple and easy to understand. These requirements all helped drive our eventual design of the game and motivated our decision to chose flappy bird as the game to develop a twist on.
+Finally, we wanted the game to be educationally friendly and help young children get used to using a computer and keyboard so we sought to design an easy-to-play game, recognisable and fun to play for anyone. Thus we limited the keys to the spacebar and up button to ensure the game is simple and easy to understand. These requirements helped drive our eventual design and motivated us to choose Flappy Bird as the game to develop a twist on.
 
 ## Design
 ### Class diagram
@@ -128,7 +128,7 @@ As the game development progressed, we needed more classes and functions to incr
 
 ### Behavioural diagram
 
-"Flight Chase" is a game with a straightforward objective: players must navigate through obstacles, such as pipes and eagles while collecting as many coins as possible. Therefore, we made a behavioural diagram so we can have a clearer understanding of the interaction between objects during the development process.
+"Flight Chase" is a game with a straightforward objective: players must navigate through obstacles, such as pipes and eagles while collecting as many coins as possible. Therefore, we made a communication diagram so we could have a clearer understanding of the interaction between objects during the development process.
 
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/behaviouralDiagram.png)
 
@@ -140,8 +140,8 @@ However, it is undeniable that a clear system architecture is essential for the 
 
 ## Evaluation
 
-### Quality Evaluation
-We used two methods, Think Aloud and Heuristic Evaluations, in the quality evaluation. They helped us understand the users’ thoughts well and helped with improvements in the next stage.
+### Qualitative Evaluation
+The Qualitative Evaluation used two methods, Think-aloud and Heuristic Evaluations. They helped us understand the users’ thoughts well and helped with improvements in the next stage.
 
 #### Think Aloud
 We have set up two tasks for Think Aloud: 
@@ -235,7 +235,7 @@ Final Result
 | 9                  | 70                 | 87                 | -17        |
 | 10                 | 11                 | 51                 | -40        |
 
-To perform a significance test for NASA TLX, we used the Wilxocon signed-rank test. We analyzed the test results and believed that only a p value of 0.05 was significant. The following is the detection process:
+We used the Wilcoxon signed-rank test to perform a significance test for the NASA TLX. We analyzed the test results and believed only a p-value of 0.05 was significant. The following is the detection process:
 
 Wilcoxon Signed-Rank Test Calculator process
 | Difference | Rank | Signed Rank |
@@ -251,7 +251,7 @@ Wilcoxon Signed-Rank Test Calculator process
 | -59        | 9    | -9          |
 | -76        | 10   | -10         |
 
-We can conclude from the above that the positive sum of ranks is 0 and the sum of negative ranks is 55, so the W value is 0 (the W value is just the smaller of the positive and negative sums). This is well below the W value of 8 required for statistical significance. A W value of 0 is statistically significant with a p-value of 0.05. These results confirm that the increase in the difficulty of our game's "Hard" mode relative to the "Easy" mode is statistically significant. In addition, the result of W test statistic = 0 is consistent with a p-value of 0.005, further illustrating that our hard mode is more difficult than expected.
+We can conclude from the above that the positive sum of ranks is 0 and the sum of negative ranks is 55, so the W value is 0 (the W value is just the smaller of the positive and negative sums). This is well below the W value of 8 required for statistical significance. A W value of 0 is statistically significant with a p-value of 0.05. These results confirm that the increase in the difficulty of our game's "Hard" mode relative to the "Easy" mode is statistically significant. In addition, the result of W test statistic = 0 is consistent with a p-value of 0.005, illustrating that our hard mode is more difficult than expected.
 
 ### Testing
 
@@ -260,31 +260,31 @@ We first find the code segment for collision implementation and set two tasks:
 1. Boundary condition test: Check whether the object can correctly detect a collision when it touches the boundary.
 2. Overlap test: Test whether the system can accurately calculate and respond to collisions when two objects overlap.
 
-After the test, we found that the actual results were the same as the expected results and that there were no functional defects or abnormalities.
+After the test, we found that the actual results were the same as the expected results and no functional defects or abnormalities were detected.
 
 #### Black Box Testing
 We open the archive as a new player and set two tasks: 
 1. Score accumulation: whether you can add points by interacting with gold coins or passing through pipes.
 2. Highest score record: Whether the highest score scored by a player will be recorded.
 
-After the test, we found that the actual results were the same as the expected results and that there were no functional defects or abnormalities.
+After the test, we found that the actual results were the same as the expected results and no functional defects or abnormalities were detected.
 
 ## Implementation
 
 Our game is a side-scrolling jumping game, where players control a bird to dodge pipes and eagles flying in from the right side of the screen while collecting coins to score points. In the early stages of development (before version 0.7), our team used graphics drawing methods in Processing to represent various objects. However, starting from version 0.7, we incorporated art and sound assets and refactored the code.
 
-The main classes in our game include Button, Bird, Pipe, Coin, multiple Interface classes (Main Menu, Settings Menu, Level, and Game Over Menu), and Eagle. Most of these classes have relatively simple functionalities. The Button class primarily handles modifying other objects (such as changing the bird's color or the current menu) upon detecting mouse clicks. Interface classes are used to manage and present the user interface (UI). The Coin and Pipe classes generate randomly at certain positions in the game and move leftward periodically. The Eagle class rapidly moves from one position toward the bird's location and detects collisions.
+The main classes in our game include Button, Bird, Pipe, Coin, multiple Interface classes (Main Menu, Settings Menu, Level, and Game Over Menu), and Eagle. Most of these classes have relatively simple functionalities. The Button class primarily handles modifying other objects, such as changing the bird's colour or the current menu after mouse clicks. Interface classes manage and present the user interface (UI). The Coin and Pipe classes generate randomly at certain positions in the game and move leftward periodically. The Eagle class rapidly moves from one position toward the bird's location and detects collisions.
 
-Implementing the Bird class posed the greatest challenge, as the bird object needed to perform various functions, including responding to player commands (jumping), interacting correctly with other objects (pipes, coins, eagles), allowing players to change its color and quantity, implementing complex animation effects, and incorporating a health system. The three main challenges encountered were Collision Detection, Bird Transit Through Screen Borders, and Two-Player Mode.
+Implementing the Bird class posed the greatest challenge, as the bird object needed to perform various functions, including responding to player commands (jumping), interacting correctly with other objects (pipes, coins, eagles), allowing players to change its colour and quantity, implementing complex animation effects, and incorporating a health system. The three main challenges encountered were Collision Detection, Bird Transit Through Screen Borders, and Two-Player Mode.
 
 ### Challenge 1: Collision Detection.
-There are 4 type of entities in the level: the player-controlled bird, pipes, coins, and eagles. Handling the collisions between these is an important part of our game. We wrote two methods: to circle-to-circle collision detection (bird with coins and eagles) and circle-to-rectangle collision detection (bird with pipes). Circle-to-circle collision detection is simple, only requiring checking whether the distance between the centres of the two circles is less than the sum of their radii. Circle-to-rectangle detection is more complex, first requiring the identification of the closest point on the rectangle to the circle and then determining if the distance from this point to the circle's centre is greater than the radius. This challenge is more of a mathematical challenge, but after spending some time understanding the principles, the coding implementation was straightforward.
+There are 4 types of entities: the player-controlled bird, pipes, coins, and eagles. Handling the collisions between these is an important part of our game. We wrote two methods: circle-to-circle collision detection (bird with coins and eagles) and circle-to-rectangle collision detection (bird with pipes). Circle-to-circle collision detection is simple, only requiring checking whether the distance between the centres of the two circles is less than the sum of their radii. Circle-to-rectangle detection is more complex, first requiring the identification of the closest point on the rectangle to the circle and then determining if the distance from this point to the circle's centre is greater than the radius. This challenge is more mathematical, but the coding implementation was straightforward after understanding the principles.
 
 ### Challenge 2: Bird Transit Through Screen Borders.
 In the early versions of the game, the bird could not fly out of the screen. So players could keep the bird on the floor for a long time without any action as an easy way to dodge pipes. Therefore, we decided to modify the game mechanics to allow the bird to transition between the top and bottom borders of the screen. Implementing this feature took quite some time. To make the animation look smooth, we ensured that the part of the bird disappearing from one side of the screen and the part appearing on the other were always complementary. After the bird's body completely left the screen, its position would be adjusted to the opposite side of the screen. This required changes not only to the existing method of displaying the bird but also to the collision detection methods (the bird should have collision detection for both parts during transit), and the death animation of the bird (after the bird dies, it should not appear from the top when it falls off the bottom of the screen). After a long time and numerous tests and adjustments, the effect finally met our satisfaction.
 
 ### Challenge 3: Two-Player Mode.
-The two-player mode is a highlight of our team's game, allowing two players to choose birds of different colours to play together and avoid pipes that match their bird's colour. The two-player mode implementation is not as simple as adding another bird object based on single player mode; it accompanies many new features and adjustments to existing code. This includes adjustments to the pipe generation frequency as it's necessary to lower the game difficulty if players have the same colour and need to avoid all pipes. Adjustments to the eagle's behaviour are required - in the two-player mode if both players are alive, the eagle will always attempt to lock onto a different player each time. The game's end conditions also need modification; when one player dies, the other should be able to continue playing, among other things. Implementing the two-player mode took us quite some time, and occasionally, new bugs would arise during the implementation process.
+The two-player mode is a highlight of our team's game, allowing two players to choose birds of different colours to play together and avoid pipes that match their bird's colour. The two-player mode implementation is not as simple as adding another bird object based on single-player mode; it accompanies many new features and adjustments to existing code. This includes adjustments to the pipe generation frequency as it's necessary to lower the game difficulty if players have the same colour and avoid all pipes. Adjustments to the eagle's behaviour are required - in the two-player mode if both players are alive, the eagle will always attempt to lock onto a different player each time. The game's end conditions also need modification; when one player dies, the other should be able to continue playing, among other things. Implementing the two-player mode took us quite some time, and occasionally, new bugs would arise during the implementation process.
 
 ## Process
 
@@ -292,7 +292,7 @@ Our team collaborated effectively throughout the development process. We utilise
 
 ### Communication
 
-We primarily used WhatsApp messaging for communication, having a running group chat to share updates, ask questions and issue reminders in real-time. This allowed us to maintain an agile approach, and quickly change tac if things weren’t working. Creating polls for meetings, decision-making and design choices allowed a democratic and team-centred approach when creating the game. Additionally, we often communicated using our Git messages, through commits and pull requests - allowing team members to stay up-to-date with each other’s changes.
+We primarily used WhatsApp messaging for communication, having a running group chat to share updates, ask questions and issue reminders in real time. This allowed us to maintain an agile approach, and quickly change tac if things weren’t working. Creating polls for meetings, decision-making and design choices allowed a democratic and team-centred approach when creating the game. Additionally, we often communicated using our Git messages, through commits and pull requests, allowing team members to stay up-to-date with each other’s changes.
 
 ### Project Management
 
@@ -310,7 +310,7 @@ Maintaining comprehensive documentation was crucial for clarity and knowledge sh
 
 We assigned roles from the beginning of the project, which ensured clarity in responsibilities and accountability, facilitating a smooth development process. Project management was completed rotationally. This allowed team members with more expertise in one area to guide others onto the correct path. Correspondingly, members were able to contribute more in different fields. 
 
-Jialun led the coding and code development process and the team responsible for code implementation and execution, while also helping out in design and animations. Qiyuan worked closely with Jialun on development and execution and implemented sound for the project alongside researching, implementing and utilising resources and libraries. Alice was responsible for the design and interface, and coding the main menu, buttons and pipes, alongside general gameplay design and class design. Ahmed was responsible for project planning and design as well as testing (both internal and external), creating focus groups, and carrying out evaluations as well as unit testing and code tests. Chen was responsible for the development and helped implement difficulty levels, accelerate bird/pipe movements and control gameplay physics. 
+Jialun led the coding and code development process and the team responsible for code implementation and execution, while also helping out in design and animations. Qiyuan worked closely with Jialun on development and execution and implemented sound for the project alongside researching, implementing and utilising resources and libraries. Alice was responsible for the design interface, coding the main menu, buttons and pipes, alongside general gameplay design and class design. Ahmed was responsible for project planning and design as well as testing (both internal and external), creating focus groups, and carrying out evaluations as well as unit testing and code tests. Chen was responsible for the development and helped implement difficulty levels, accelerate bird/pipe movements and control gameplay physics. 
 
 ### Team Evaluation
 
