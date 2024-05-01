@@ -2,6 +2,7 @@
 [![](./Images/VideoPic.png)](https://youtu.be/tmaa68vwp4c)
 ↑↑↑Click to watch the game video↑↑↑
 
+
 ## Team
 Overview of Software Engineering - University of Bristol MSc Group Project
 
@@ -19,9 +20,9 @@ Chen Lesheng，pp23991@bristol.ac.uk,chenlesheng2000(se2023passok)
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/assets/69910719/2221f7df-e9b5-4e8e-b8aa-bd7b3e7a9eb7)
 *Group photo of our MSc Software Engineering group at the University of Bristol*
 
+
 ## Introduction
 With this project, we sought to create an engaging, visually pleasing and unique game. To achieve this, we wanted to introduce a twist to an easily recognisable and unique popular mobile platform and provide users with a computer version. We wanted to create a twist on a game we all played and loved growing up, so we decided to choose the frenzy-causing Flappy Bird from 2013. To make our game unique, we decided to add key differences, these include a multiplayer mode, a surprise attacking eagle enemy, coin collection, movable pipes, and customizable birds and backgrounds are just a few of the features that make our game unique and exciting. We worked together to achieve this game by following the agile software development methodology and instilling a strict test-driven and user-tested development ethos throughout our game development. We divided roles, planned tasks and collaborated on the implementation and documentation of features. This report will seek to outline the development process for our game, which we have called "Flight Chase" to illustrate the multiplayer "Chase" element at its core. 
-
 
 **Main Page**
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/GIF/mainPage.gif)
@@ -40,6 +41,7 @@ With this project, we sought to create an engaging, visually pleasing and unique
 
 **2 Players Mode**
 ![image](https://github.com/UoB-COMSM0110/2024-group-11/blob/main/GIF/twoPlayers2.gif)
+
 
 ## Requirements
 
@@ -115,7 +117,9 @@ After the paper prototypes ended, we unanimously decided to use the idea of Colo
 
 Finally, we wanted the game to be educationally friendly and help young children get used to using a computer and keyboard so we sought to design an easy-to-play game, recognisable and fun to play for anyone. Thus we limited the keys to the spacebar and up button to ensure the game is simple and easy to understand. These requirements helped drive our eventual design and motivated us to choose Flappy Bird as the game to develop a twist on.
 
+
 ## Design
+
 ### Class diagram
 
 Regarding the system architecture, before the development process, we initially defined the core elements of the game: birds, pipes, coins, and user interface buttons. During this stage, we formulated the initial version of the class diagram.
@@ -141,6 +145,7 @@ As the game development progressed, we needed more classes and functions to incr
 In conclusion, before game development, we applied the software engineering methods learned in the taught component of this module to outline a rough system architecture. This allowed us to develop prototypes, facilitate rapid consensus among all team members on the content and reduce communication time.
 Through adopting the Agile methodology, we iterated through seven versions throughout the development process. Despite this, we set up the initial system architecture at the first stage but new ideas constantly emerged during development. The final class diagram is much more complex than the initial version, and there are also many differences between the original design documents and the final game results. Design documents cannot provide all the details in the development stage as a reference. We had to improve and add the content in design documents while considering the variables and methods needed for the new classes during development.
 However, it is undeniable that a clear system architecture is essential for the development process. It is the game's backbone and provides the foundation for other design elements.
+
 
 ## Evaluation
 
@@ -266,6 +271,7 @@ We open the archive as a new player and set two tasks:
 
 After the test, we found that the actual results were the same as the expected results and no functional defects or abnormalities were detected.
 
+
 ## Implementation
 
 Our game is a side-scrolling jumping game, where players control a bird to dodge pipes and eagles flying in from the right side of the screen while collecting coins to score points. In the early stages of development (before version 0.7), our team used graphics drawing methods in Processing to represent various objects. However, starting from version 0.7, we incorporated art and sound assets and refactored the code.
@@ -282,6 +288,7 @@ In the early versions of the game, the bird could not fly out of the screen. So 
 
 ### Challenge 3: Two-Player Mode.
 The two-player mode is a highlight of our team's game, allowing two players to choose birds of different colours to play together and avoid pipes that match their bird's colour. The two-player mode implementation is not as simple as adding another bird object based on single-player mode; it accompanies many new features and adjustments to existing code. This includes adjustments to the pipe generation frequency as it's necessary to lower the game difficulty if players have the same colour and avoid all pipes. Adjustments to the eagle's behaviour are required - in the two-player mode if both players are alive, the eagle will always attempt to lock onto a different player each time. The game's end conditions also need modification; when one player dies, the other should be able to continue playing, among other things. Implementing the two-player mode took us quite some time, and occasionally, new bugs would arise during the implementation process.
+
 
 ## Process
 
@@ -319,6 +326,7 @@ We assigned roles from the beginning of the project, which ensured clarity in re
 Our collaborative efforts were characterised by open communication, mutual respect, and a shared commitment to project success. Regular team meetings allowed us to discuss progress, address challenges, and brainstorm solutions collaboratively. Each team member brought unique skills and perspectives to the project, contributing to a well-rounded and innovative final product.
 We recognised the importance of adaptability and flexibility in response to evolving project requirements and feedback. Team members were proactive in seeking clarification, providing constructive feedback, and offering support to one another when needed. Our teamwork was instrumental in overcoming challenges, achieving milestones, and delivering a high-quality project.
 
+
 ## Conclusion
 
 ### Reflection
@@ -338,6 +346,7 @@ The project was not without technical challenges, as our vision for a multi-play
 ### Future Work
 
 To improve the game further and continue development, we have compelling ideas. We have discussed additional elements such as newer levels, 3-dimensional gameplay, multi-player modes via internet connectivity, and customisable “suits” or emojis to replace birds - with a user-led character store to purchase new “suits”/characters - purchasable with game tokens. These ideas would all require user and stakeholder feedback, prompt planning, evaluation and testing and a robust plan to carry out a new round of agile development. However, with the skills learnt from this project, and a greater influence on robust documentation and daily communication, we believe we are up to this new and exciting task. We hope you enjoy playing our game and look forward to developing it further following feedback, aiming for the perfect user experience. 
+
 
 ## Individual contribution:
 
