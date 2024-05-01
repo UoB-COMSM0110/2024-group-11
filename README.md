@@ -298,8 +298,8 @@ Our team collaborated effectively throughout the development process. We utilise
 
 We primarily used WhatsApp messaging for communication, having a running group chat to share updates, ask questions and issue reminders in real time. This allowed us to maintain an agile approach, and quickly change tac if things weren’t working. Creating polls for meetings, decision-making and design choices allowed a democratic and team-centred approach when creating the game. Additionally, we often communicated using our Git messages, through commits and pull requests, allowing team members to stay up-to-date with each other’s changes.
 <div style="display: flex;">
-  <img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/whatsApp1.png" alt="image" width="450">
-  <img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/whatsApp2.png" alt="image" width="450">
+  <img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/whatsApp1.png" alt="image" style="width: 50%;">
+  <img src="https://github.com/UoB-COMSM0110/2024-group-11/blob/main/Images/whatsApp2.png" alt="image" style="width: 50%;">
 </div>
 
 
