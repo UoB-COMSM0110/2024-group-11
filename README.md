@@ -2,6 +2,19 @@
 [![](./Images/VideoPic.png)](https://youtu.be/tmaa68vwp4c)
 ↑↑↑Click to watch the game video↑↑↑
 
+## Contents
+
+- [Team](#team)
+- [Introduction](#introduction)
+- [Main Page](#main-page)
+- [Requirements](#requirements)
+- [Design](#design)
+- [Evaluation](#evaluation)
+- [Implementation](#implementation)
+- [Process](#process)
+- [Conclusion](#conclusion)
+- [Individual contribution](#individual-contribution)
+
 ## Team
 Overview of Software Engineering - University of Bristol MSc Group Project
 
